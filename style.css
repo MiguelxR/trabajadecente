@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spline Sans", sans-serif;
+}
+p {
+  margin-bottom: 0;
+}
+.horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 100vw;
+}
+/* botones del header */
+.home,
+.about,
+.services,
+.news,
+.contact,
+.login {
+  margin: 0 10px;
+  padding: 5px;
+  border: none;
+  background-color: #070d18;
+  color: white;
+}
+.login {
+  padding: 0 15px;
+  border-radius: 10px;
+  border: 1px solid aqua;
+}
+.login:hover {
+  background-color: rgb(13, 30, 68);
+}
+.home:hover,
+.about:hover,
+.services:hover,
+.news:hover,
+.contact:hover {
+  transform: scaleX(1);
+  border-bottom: 1px solid aqua;
+}
+/* section 1 */
+.navbar {
+  height: 75px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.espacio {
+  height: 200px;
+}
+.cumplir {
+  color: rgb(66, 189, 236, 0.8);
+}
+.img-fondo {
+  height: 400px;
+  width: 100%;
+  background-image: url(imagenes/workers.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* section 2 */
+.section2-1 {
+  height: 40%;
+  justify-content: space-between;
+}
+.section2-2 {
+  width: 100%;
+  height: 60%;
+  justify-content: space-between;
+}
+.imagen-sect-2 {
+  width: 100%;
+  height: 100%;
+}
+/* selection 3 */
+.section3-1,
+.section3-2 {
+  width: 100%;
+}
+.section3-2 {
+  justify-content: space-between;
+}
+
+.img-card {
+  width: 100px;
+}
+.card1,
+.card2,
+.card3 {
+  width: 30%;
+  height: 300px;
+  background-color: white;
+  color: #070d18;
+  border-radius: 15px;
+  padding: 20px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+/* section 4 */
+.section4-1,
+.section4-2 {
+  width: 100%;
+}
+.section4-1 {
+  height: 20%;
+}
+.section4-2 {
+  height: 80%;
+  justify-content: space-between;
+}
+.money {
+  width: 100%;
+  height: 100%;
+}
+/* section 5 */
+.espacio-top,
+.espacio-bottom {
+  height: 50px;
+  width: 100%;
+}
+.espacio-center {
+  width: 100%;
+  justify-content: space-between;
+}
+.section5 {
+  height: 300px;
+}
+.section5-a,
+.section5-b {
+  width: 30%;
+  height: 200px;
+  padding: 20px;
+}
+.section5-c {
+  width: 39%;
+  height: 200px;
+  padding: 20px;
+}
+
+.section5-b {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+/* footer */
+.footer {
+  height: 50px;
+}
+/* GENERALIZACIONES */
+.section {
+  height: 600px;
+}
+.section2-a,
+.section2-b,
+.section4-a,
+.section4-b {
+  width: 48%;
+  height: 100%;
+  padding: 40px 0;
+  justify-content: space-between;
+}
+.section,
+.section3,
+.section5,
+.decoration {
+  background-color: #070d18;
+  color: white;
+}
+.section2,
+.section3,
+.section4 {
+  height: 600px;
+  width: 100%;
+  padding: 60px;
+}
