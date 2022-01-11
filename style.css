@@ -18,9 +18,7 @@ p {
   justify-content: center;
   align-items: center;
 }
-.container {
-  width: 100vw;
-}
+
 /* botones del header */
 .home,
 .about,
@@ -62,6 +60,7 @@ p {
 }
 .cumplir {
   color: rgb(66, 189, 236, 0.8);
+  font-weight: bolder;
 }
 .img-fondo {
   height: 400px;
