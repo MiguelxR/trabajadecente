@@ -7,6 +7,9 @@
 p {
   margin-bottom: 0;
 }
+#body {
+  font-family: "Spline Sans", sans-serif;
+}
 .horizontal {
   display: flex;
   justify-content: center;
