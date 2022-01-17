@@ -1,0 +1,43 @@
+.navbar-derechos {
+  height: 200px;
+}
+
+.img-derechos {
+  margin-top: 20px;
+  left: 850px;
+  height: 150px;
+  width: 300px;
+  position: absolute;
+}
+
+.container-navbar-derechos {
+  position: relative;
+}
+
+.Derechos-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-top: 70px;
+  font-size: 60px;
+}
+
+.subtitle-derechos {
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 40px;
+}
+
+.texto-derechos-1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.btn-derechos {
+  border: solid;
+  border-color: aliceblue;
+}
+
+.text-acordion {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
