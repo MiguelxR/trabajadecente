@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@500&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -39,69 +43,53 @@
             <a href="Login.html"> <button class="login">Login</button></a>
           </div>
         </div>
-        <div
+
+        <img src="/imagenes/workers.png" class="img-fondo"/>
+        <!-- <div
           class="img-fondo vertical"
           style="background-image: url(imagenes/workers.png)"
-        >
-          <div class="espacio"></div>
-          <h2 class="row-3">Tus derechos importan, conócelos y hazlos</h2>
+        > -->
+        <div class="section-1-container">
+          <div class="container-text">
+        <h2 class="row-3 ">Tus derechos importan, conócelos y hazlos</h2>
           <h2 class="cumplir">CUMPLIR</h2>
           <br />
-          <p>
+          <p class="text-section-1">
             Te brindamos información sobre leyes laborales y tributacion para
             hacertelo más sencillo.
           </p>
+        </div>
         </div>
       </div>
       <!-- section 2 -->
       <div class="section2 vertical">
         <div class="section2-1 vertical">
-          <h2>Desafío</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            doloremque debitis quos magni aperiam commodi harum, quod nostrum
-            repellendus repudiandae modi non, omnis veritatis dolor rem
-            molestiae. Illo, vitae atque! Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Deleniti, ut. Beatae repudiandae culpa
-            eum explicabo laborum eveniet ipsum fugiat, magnam, odit sed
-            excepturi nisi? Libero voluptatum harum maiores adipisci corrupti!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
-            inventore est eligendi ullam reiciendis exercitationem explicabo
-            nostrum molestias cumque quia repellendus amet? Rerum aut ea tenetur
-            cupiditate totam dolore culpa?
+          <h2 class="title-section-2">Desafío</h2>
+          <p class="text-section-2">
+            La pandemia del covid-19 a afectado de manera negativa el crecimiento económico del Perú y a impulsado el desempleo, la informalidad y la precarización laboral. Es por ello que la Organización de las Naciones Unidas (ONU), mediante los Objetivos de Desarrollo Sostenible, propone como indispensable para el desarrollo inclusivo y sostenible de toda la sociedad, el objetivo numero 8: <strong class="text-strong"> el trabajo decente.</strong> 
           </p>
           <br />
         </div>
 
         <div class="section2-2 horizontal">
           <div class="section2-a vertical">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              itaque possimus vel sit quam voluptatem soluta magnam temporibus
-              numquam, ipsa cumque labore iusto. Consequuntur in quasi eius
-              vitae illo totam!
+            <p class="text-section-2">
+              La informalidad laboral es uno de los principales problemas socioeconómicos del Perú y es el causante de perpetuar la precarización, la explotación y discriminación, lamentablemente en el año 2021 se ha profundizado esta problemática en el país. 
             </p>
           </div>
           <div class="section2-b">
-            <!-- <img class="imagen-sect-2" src="" alt="" /> -->
+            <div>
+            <canvas class="grafico" id="myChart"></canvas>
+          </div>
           </div>
         </div>
       </div>
       <!-- section 3 -->
       <div class="section3 vertical">
         <div class="section3-1 vertical">
-          <h2>Sobre</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
-            voluptatem rerum praesentium consequatur explicabo quo adipisci,
-            dolorem quibusdam! Mollitia possimus ipsum quis officia deleniti
-            voluptatum! Culpa alias assumenda ea quidem! Lorem ipsum dolor, sit
-            amet consectetur adipisicing elit. Corporis, quam nisi doloribus
-            quas minus earum repellendus ducimus fugit ratione sit nam placeat
-            iusto. Ullam nisi esse consectetur alias quaerat reiciendis! Lorem
-            ipsum, dolor sit amet consectetur adipisicing elit. Iure fugit
-            nulla, fugiat corrupti enim quis atque minima in ab pariatur dolorem
-            eum maxime quidem porro est consequuntur placeat laudantium sit.
+          <h2 class ="title-section-3">Sobre Nosotros</h2>
+          <p class="text-section-3">
+            Creemos en que la educación es el pilar fundamental para el desarrollo y la solución de los problemas sociales del país, por eso Lorem es una plataforma informativa que busca asesorarte sobre tus derechos como trabajador y brindarte herramientas para que puedas calcular las prestaciones sociales que por ley te corresponden. 
           </p>
           <br />
         </div>
@@ -150,11 +138,8 @@
         <div class="section4-1 vertical"><h2>Tributación</h2></div>
         <div class="section4-2 horizontal">
           <div class="section4-a">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              itaque possimus vel sit quam voluptatem soluta magnam temporibus
-              numquam, ipsa cumque labore iusto. Consequuntur in quasi eius
-              vitae illo totam!
+            <p class="text-section-4">
+              Los impuestos o tributos son un pago sin contraprestación pero generalmente esperamos algún beneficio indirecto. En la mayoría de los países modernos, los ciudadanos pagan impuestos al gobierno con el fin de financiar sus actividades, programas de ayuda y otros servicios. Tenemos una sección informativa para que encuentres todo lo que necesitas saber sobre impuestos.
             </p>
           </div>
           <div class="section4-b">
@@ -184,6 +169,7 @@
       </div>
     </div>
     <!-- JavaScript Bundle with Popper -->
+     <script src="grafics.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
