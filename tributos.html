@@ -2,14 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="stylesDerecho.css">
+    <link rel="stylesheet" href="stylesDerecho.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@500&display=swap"
       rel="stylesheet"
@@ -25,211 +30,501 @@
   </head>
   <body id="body">
     <!-- header y navbar lateral -->
-    <header  style="background-color: rgb(66, 189, 236, 1) " class="sticky-top navbar-derechos">
-        <div class="nav flex-column "  >
-          <div class="navbar ">
-            <nav class="navbar navbar-light fixed-top">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="tributos.html" style="color: white">
-                  <img
-                    src="imagenes/finance-and-accounting-concept-business-woman-working-on-desk.jpg"
-                    alt=""
-                    width="100"
-                    height="64"
-                    class="d-inline-block align-text-center img-derechos"
-                    style="border-radius: 15px; margin-right: 15px;"
-                  /> Deberes Tributarios
-                  </a>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="offcanvas"
-                  data-bs-target="#offcanvasNavbar"
-                  aria-controls="offcanvasNavbar"
-                  style="background-color: white"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div
-                  class="offcanvas offcanvas-end"
-                  tabindex="-1"
-                  id="offcanvasNavbar"
-                  aria-labelledby="offcanvasNavbarLabel"
-                >
-                  <div class="offcanvas-header">
-                    <img src="imagenes/workers (1).png" alt="logo" />
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                      Trabaja Decente
-                    </h5>
-                    <button
-                      type="button"
-                      class="btn-close text-reset"
-                      data-bs-dismiss="offcanvas"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="offcanvas-body" style="background-color: #42bdec">
-                    <ul class="navbar-nav flex-grow-1 pe-3">
-                      <li class="nav-item">
-                        <a
-                          style="color: white"
-                          class="nav-link active"
-                          aria-current="page"
-                          href="index.html"
-                          ><img
-                            src="imagenes/home.png"
-                            alt="inicio"
-                            width="50"
-                            height="44"
-                          />
-                          Inicio</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a
-                          style="color: white"
-                          class="nav-link"
-                          href="derecho.html"
-                          ><img
-                            src="imagenes/laws.png"
-                            alt="derechos"
-                            width="50"
-                            height="44"
-                          />
-                          Derechos Laborales</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a style="color: white" class="nav-link" href="tributos.html"
-                          ><img
-                            src="imagenes/money-bag (1).png"
-                            alt="tributacion"
-                            width="50"
-                            height="44"
-                          />
-                          Tributación</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a style="color: white" class="nav-link" href="sunafil.html"
-                          ><img
-                            src="imagenes/college.png"
-                            alt="sunafil"
-                            width="50"
-                            height="44"
-                          />
-                          Sunafil</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a style="color: white" class="nav-link" href="calculadora.html">
-                          <i class="fas fa-calculator" style="font-size: 45px; margin-right: 9px;"></i>  
-                          Calculadoras</a
-                        >
-                      </li>
-                    </ul>
-                    <form class="d-flex">
-                      <input
-                        class="form-control me-2"
-                        type="search"
-                        placeholder="Search"
-                        aria-label="Search"
-                      />
-                      <button class="btn align-text-center" type="submit">
-                        Search
-                      </button>
-                    </form>
-                  </div>
+    <header
+      style="background-color: rgb(66, 189, 236, 1)"
+      class="sticky-top navbar-derechos"
+    >
+      <div class="nav flex-column">
+        <div class="navbar">
+          <nav class="navbar navbar-light fixed-top">
+            <div class="container-fluid">
+              <div class="navbar-brand" style="color: white">
+                <img
+                  src="imagenes/finance-and-accounting-concept-business-woman-working-on-desk.jpg"
+                  alt=""
+                  width="100"
+                  height="64"
+                  class="d-inline-block align-text-center img-derechos"
+                  style="border-radius: 15px; margin-right: 15px"
+                />
+                <h1 class="Derechos-title">Deberes Tributarios</h1>
+              </div>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+                style="background-color: white"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="offcanvas offcanvas-end"
+                tabindex="-1"
+                id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel"
+              >
+                <div class="offcanvas-header">
+                  <img src="imagenes/workers (1).png" alt="logo" />
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                    Trabaja Decente
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close text-reset"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body" style="background-color: #42bdec">
+                  <ul class="navbar-nav flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a
+                        style="color: white"
+                        class="nav-link active"
+                        aria-current="page"
+                        href="index.html"
+                        ><img
+                          src="imagenes/home.png"
+                          alt="inicio"
+                          width="50"
+                          height="44"
+                        />
+                        Inicio</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        style="color: white"
+                        class="nav-link"
+                        href="derecho.html"
+                        ><img
+                          src="imagenes/laws.png"
+                          alt="derechos"
+                          width="50"
+                          height="44"
+                        />
+                        Derechos Laborales</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        style="color: white"
+                        class="nav-link"
+                        href="tributos.html"
+                        ><img
+                          src="imagenes/money-bag (1).png"
+                          alt="tributacion"
+                          width="50"
+                          height="44"
+                        />
+                        Tributación</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        style="color: white"
+                        class="nav-link"
+                        href="sunafil.html"
+                        ><img
+                          src="imagenes/college.png"
+                          alt="sunafil"
+                          width="50"
+                          height="44"
+                        />
+                        Sunafil</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        style="color: white"
+                        class="nav-link"
+                        href="calculadora.html"
+                      >
+                        <i
+                          class="fas fa-calculator"
+                          style="font-size: 45px; margin-right: 9px"
+                        ></i>
+                        Calculadoras</a
+                      >
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                    <input
+                      class="form-control me-2"
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search"
+                    />
+                    <button class="btn align-text-center" type="submit">
+                      Search
+                    </button>
+                  </form>
                 </div>
               </div>
-            </nav>
-            <div></div>
-          </div>
+            </div>
+          </nav>
+          <div></div>
         </div>
-      
+      </div>
     </header>
     <!-- parrafo explicativo -->
     <div class="container m-4">
-      <h4>Deberes tributarios del trabajador</h4>
-      <p>
-        <p>
-
-          aqui va una pequeña definicion 
-        </p>
-        Lorem ipsum dolor, sit amet consectetur Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, sapiente quibusdam nobis blanditiis optio voluptates vero corrupti fugit magnam delectus distinctio dolore labore dolorum modi recusandae quos veritatis rem in.
-        adipisicing elit. Qui facere vero error, molestiae debitis saepe quo
-        quia in culpa, tenetur maiores nulla libero nisi! Asperiores, atque!
-        Minus, ipsam? Facere, natus. Quo doloremque impedit, at quae in
-        molestiae architecto perferendis aperiam. Mollitia incidunt rerum
-        ducimus culpa perspiciatis animi. Laudantium adipisci itaque suscipit
-        doloribus fugit, ex facere accusamus reiciendis mollitia tempora
-        voluptates? 
-        <p>
-
-          a continuacion reflejaremos los preguntas mas comunes
-        </p>
+      <h2 class="subtitle-derechos">Deberes tributarios del trabajador</h2>
+      <p class="texto-derechos-1">
+        La tributación puede referirse al acto de pagar tributos, así como al
+        marco jurídico al que están sujetos los contribuyentes en una nación en
+        lo referente a sus deberes con la entidad recaudadora. El objetivo de la
+        tributación es que el Estado cuenta con los recursos financieros
+        necesarios para operar y brindar, por ejemplo, los servicios básicos que
+        ofrece a la población. Todo ello, a través de las instituciones
+        públicas.
+        <br />
+        <br />
+        Si no existiera la tributación, el Estado no podría pagar el sueldo de
+        sus funcionarios y tampoco sería posible que el Gobierno, por ejemplo,
+        financiara obras públicas. Incluso, puede ser que existan programas
+        sociales o de apoyo a los sectores más vulnerables que estén siendo
+        financiados (parcial o totalmente) con los fondos públicos provenientes
+        de la recaudación.
       </p>
     </div>
     <!-- acordeones -->
     <div>
-    <div class="accordion" id="accordionExample" >
-        <div class="accordion-item" >
-    <h2 class="accordion-header" id="headingOne" >
-      <button style="background-color: rgba(1, 132, 184, 0.9); color: white;" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Accordion Item #1
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body container m-3">
-        <strong>This is the first item's accordion body.</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, ratione vel! Deserunt, in id? Incidunt amet veritatis voluptas! Quam tempore veritatis facilis unde nulla vel aliquid illo molestias labore similique. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color: rgba(1, 132, 184, 0.9); color: white;">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body container m-3">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background-color: rgba(1, 132, 184, 0.9); color: white;">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="accordion-body container m-3">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-</div>
-    </div>
-    <!-- section 5 -->
-      <div class="section5 vertical">
-        <div class="espacio-top"></div>
-        <div class="espacio-center horizontal">
-          <div class="section5-a vertical">
-            <h2>section 1</h2>
-          </div>
-          <div class="section5-b vertical">
-            <h2>section 2</h2>
-          </div>
-          <div class="section5-c vertical">
-            <h2>section 3</h2>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              style="
+                background-color: rgba(1, 132, 184, 0.9);
+                color: white;
+                border: solid 1px white;
+                font-size: 25px;
+                font-weight: 400;
+              "
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Regímenes tributarios
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body container m-3 text-acordion">
+              Son las categorías bajo las cuales una Persona Natural o Persona
+              Jurídica que posee o va a iniciar un negocio debe estar registrada
+              en la SUNAT. El régimen tributario establece la manera en la que
+              se pagan los impuestos y los niveles de pagos de los mismos.
+              Puedes optar por uno u otro régimen dependiendo del tipo y el
+              tamaño del negocio. Hay cuatro regímenes tributarios: Nuevo
+              Régimen Único Simplificado (NRUS), Régimen Especial de Impuesto a
+              la Renta (RER), Régimen MYPE Tributario (RMT) y Régimen General
+              (RG) puedes conocer el ideal para tu negocio.
+            </div>
           </div>
         </div>
-        <div class="espacio-bottom"></div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+              style="
+                background-color: rgba(1, 132, 184, 0.9);
+                color: white;
+                border: solid 1px white;
+                font-size: 25px;
+                font-weight: 400;
+              "
+            >
+              Nuevo Régimen Único Simplificado - NRUS
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body container m-3 text-acordion">
+              Si eres una persona natural y vas a iniciar un pequeño negocio
+              como bodega, puesto de mercado, zapatería, bazar, restaurante,
+              juguería, peluquería u otros y solo emitirás boleta de venta,
+              puedes acogerte al NRUS. Ten presente que no puedes estar en el
+              NRUS si tus ingresos o compras superan el monto de S/ 8,000 al mes
+              o S/ 96,000 al año. Asimismo, es importante que al hacer tus
+              compras exijas la emisión de factura, salvo que compres a otras
+              personas que también están en el NRUS.
+              <br />
+              <br />
+              En este régimen:
+              <br />
+              <br />
+              <ul>
+                <li>No puedes emitir facturas por tus ventas o servicios.</li>
+                <br />
+                <li>No necesitas llevar libros contables.</li>
+                <br />
+                <li>No estás obligado a presentar declaración anual.</li>
+                <br />
+                <li>
+                  Solo debes hacer un pago único mensual por internet o bancos.
+                </li>
+              </ul>
+              <br />
+              <h3>Categorías</h3>
+              <br />
+              Categorías Para calcular tu pago único mensual debes considerar
+              tus ingresos o compras del mes y colocarte en una de estas
+              categorías:
+              <br />
+              <br />
+              Categoría 1: ingresos o compras hasta S/ 5,000. La cuota es de S/
+              20.00.
+              <br />
+              <br />
+              Categoría 2: ingresos o compras hasta S/ 8,000. La cuota es de S/
+              50.00.
+              <br />
+              <br />
+              <h3>Restricciones</h3>
+              <br />
+              <ul>
+                <li>
+                  Debes realizar actividades en un solo lugar y solo las
+                  permitidas en el Nuevo RUS.
+                </li>
+                <br />
+                <li>
+                  Tus activos fijos no deben superar el valor de S/ 70,000
+                  soles, salvo si son vehículos o predios.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+              style="
+                background-color: rgba(1, 132, 184, 0.9);
+                color: white;
+                border: solid 1px white;
+                font-size: 25px;
+                font-weight: 400;
+              "
+            >
+              Régimen Especial de Renta - RER
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body container m-3 text-acordion">
+              En este régimen tributario se encuentran las personas con negocio
+              y personas jurídicas que obtengan rentas provenientes de
+              actividades de comercio y/o industria, y actividades de servicios.
+              Este régimen solo lleva dos registros contables (Compras y
+              Ventas), emites todo tipo de comprobantes de pago, solo presentas
+              declaraciones mensuales y no estás obligado a presentar
+              declaraciones anuales. Además, debes considerar que se tienen
+              restricciones en este régimen,
+              <br />
+              <br />
+              <ul>
+                <li>
+                  Tus ingresos o compras anuales no deben superar los S/ 525,000
+                  soles
+                </li>
+                <br />
+                <li>Tener como máximo 10 trabajadores por turno de trabajo</li>
+                <br />
+                <li>
+                  El valor de los activos fijos no debe superar los S/ 126,000
+                  soles (excepto vehículos y predios)
+                </li>
+                <br />
+                <li>Tampoco puedes realizar actividades no comprendidas</li>
+                <br />
+              </ul>
+              <br />
+              Al realizar las declaraciones mensuales, se determina el pago de
+              dos impuestos:
+              <br />
+              <br />
+              <ul>
+                <li>El Impuesto General a las ventas (IGV) del 18%, y</li>
+                <br />
+                <li>
+                  El impuesto a la renta (el 1.5% sobre tus ingresos netos)
+                </li>
+              </ul>
+              <br />
+              Un requisito para pertenecer de manera permanente a este régimen
+              es cumplir con la declaración y pago del periodo de inicio de
+              actividades dentro de la fecha de vencimiento, según el Cronograma
+              de obligaciones mensuales y así evitar sanciones.
+            </div>
+          </div>
+        </div>
       </div>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+              style="
+                background-color: rgba(1, 132, 184, 0.9);
+                color: white;
+                border: solid 1px white;
+                font-size: 25px;
+                font-weight: 400;
+              "
+            >
+              Régimen MYPE Tributario - RMT
+            </button>
+          </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body container m-3 text-acordion">
+              Es un régimen especialmente creado para las micro y pequeñas
+              empresas con el objetivo de promover su crecimiento. El Régimen
+              MYPE Tributario (RMT) les exige condiciones más simples para
+              cumplir con sus obligaciones tributarias. El RMT es uno de los
+              regímenes tributarios para negocio admitidos por la Sunat.
+
+              <br />
+              <br />
+              <h3>Ventajas y beneficios</h3>
+              <br />
+              <ul>
+                <li>Montos a pagar de acuerdo a la ganancia obtenida.</li>
+                <br />
+                <li>Tasas reducidas.</li>
+                <br />
+                <li>Realizar cualquier tipo de actividad económica.</li>
+                <br />
+                <li>Emitir todos los tipos de comprobantes de pago.</li>
+                <br />
+                <li>Llevar libros contables en función de tus ingresos.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+              style="
+                background-color: rgba(1, 132, 184, 0.9);
+                color: white;
+                border: solid 1px white;
+                font-size: 25px;
+                font-weight: 400;
+              "
+            >
+              Régimen General
+            </button>
+          </h2>
+          <div
+            id="flush-collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body container m-3 text-acordion">
+              Está dirigido a las medianas y grandes empresas (personas con
+              negocio o personas jurídicas) que generan rentas de tercera
+              categoría, también a las asociaciones de cualquier profesión,
+              arte, ciencia u oficio y cualquier otra ganancia o ingreso
+              obtenido por las personas jurídicas. En este régimen no hay límite
+              de ingresos.
+              <br />
+              En este régimen tributario se debe:
+              <br />
+              <ul>
+                <br />
+                <li>Elaborar libros contables.</li>
+                <br />
+                <li>
+                  Elaborar el Estado de Situación Financiera y el Estado de
+                  Resultados, los que forman parte de la Declaración Anual,
+                  entre otras obligaciones, por lo que se recomienda contar con
+                  una persona con conocimientos que pueda ayudarte en estas
+                  gestiones.
+                </li>
+              </ul>
+              <br />
+              La ventaja de este régimen tributario es que puedes desarrollar tu
+              negocio en cualquier actividad y sin límite de ingresos y en caso
+              tengas pérdidas económicas en un año, se podrán descontar de las
+              utilidades de los años posteriores, pudiendo llegar al caso de no
+              pagar Impuesto a la Renta Anual.
+              <br />
+              En este régimen se realizan declaraciones mensuales, en el cual se
+              determina el pago de dos impuestos:
+              <br />
+              <ul>
+                <br />
+                <li>El Impuesto General a las ventas (IGV) del 18%, y</li>
+                <br />
+                <li>
+                  El impuesto a la renta (el que resulte mayor de aplicar el
+                  coeficiente o 1.5% sobre los ingresos netos mensuales).
+                </li>
+              </ul>
+              <br />
+              También te permite descontar los gastos relacionados a tu negocio
+              de tus ingresos, de esta manera pagas el impuesto sobre la
+              utilidad final del año, por lo que debes presentar una Declaración
+              jurada anual aplicando la tasa del 29.5%, en la cual podrás
+              descontar los pagos que realizaste de manera mensual del impuesto
+              a la renta.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section 5 -->
+    <div class="footer-container"></div>
     <!-- footer Copyright -->
     <footer>
-        <div class="footer vertical">
+      <div class="footer-vertical">
         <p>© Copyright ©2022 All rights reserved</p>
       </div>
     </footer>

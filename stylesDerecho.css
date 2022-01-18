@@ -1,12 +1,12 @@
 .navbar-derechos {
-  height: 200px;
+  height: 180px;
 }
 
 .img-derechos {
   margin-top: 20px;
-  left: 850px;
-  height: 150px;
-  width: 300px;
+  left: 900px;
+  height: 130px;
+  width: 250px;
   position: absolute;
 }
 
@@ -14,10 +14,19 @@
   position: relative;
 }
 
+.title-box {
+  margin-left: 20px;
+}
+
+.footer-container {
+  height: 200px;
+  background-color: black;
+}
+
 .Derechos-title {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  margin-top: 70px;
+  margin-top: 50px;
   font-size: 60px;
 }
 
