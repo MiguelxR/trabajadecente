@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style-salary-calculator.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="navbar horizontal color-fondo">
+        <div>
+          <h1 style="color: white">SalaryCalculator</h1>
+        </div>
+        <div class="horizontal">
+          <button class="home">Inicio</button>
+
+          <button class="services">Servicios</button>
+
+          <button class="contact">Contactanos</button>
+          <a href="Login.html"> <button class="login">Login</button></a>
+        </div>
+      </div>
+      <div class="espacios">
+        <div class="formulario">
+          <form action="">
+            <div class="formulario2">
+              <label for="name">Nombre Completo</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Nombre Completo"
+              />
+            </div>
+            <div class="formulario2">
+              <label for="dni">DNI</label>
+              <input type="text" name="dni" id="dni" placeholder="DNI" />
+            </div>
+            <div class="formulario2">
+              <label for="fechaIngreso">Fecha de Ingreso</label>
+              <input
+                type="datetime"
+                name="fechaIngreso"
+                id="fechaIngreso"
+                placeholder="dd/mm/aaaa"
+              />
+            </div>
+            <div class="formulario2">
+              <label for="cargo">Cargo u Ocupacion</label>
+              <input
+                type="text"
+                name="cargo"
+                id="cargo"
+                placeholder="Cargo/Ocupacion"
+              />
+            </div>
+            <div class="formulario2">
+              <label for="asignacionFam">Asignacion Familiar</label>
+              <input
+                type="number"
+                name="asignacionFam"
+                id="asignacionFam"
+                placeholder="Asignados"
+              />
+            </div>
+            <div class="formulario2">
+              <label for="sueldo">Sueldo Basico</label>
+              <input
+                type="number"
+                name="sueldo"
+                id="sueldo"
+                placeholder="Monto SOLES"
+              />
+            </div>
+
+            <div class="formulario2">
+              <label for=""></label>
+              <button class="boton">Calcular</button>
+            </div>
+          </form>
+          <div>
+            <div class="formulario2">
+              <label for="remuneracion">Remuneracion Neta</label>
+              <input type="text" name="remuneracion" id="remuneracion" />
+            </div>
+            <div class="formulario2">
+              <label for="jornalNeto">Jornal Diario Neto</label>
+              <input type="text" name="jornalNeto" id="jornalNeto" />
+            </div>
+            <div class="formulario2">
+              <label for="gratificacion">Gratificacion x Mes</label>
+              <input type="text" name="gratificacion" id="gratificacion" />
+            </div>
+            <div class="formulario2">
+              <label for="cts">CTS x Mes</label>
+              <input type="text" name="cts" id="cts" />
+            </div>
+            <div class="formulario2">
+              <label for="vacaciones">Vacaciones x Mes</label>
+              <input type="text" name="vacaciones" id="vacaciones" />
+            </div>
+          </div>
+        </div>
+        <div class="formulario">
+          <canvas id="pie" style="width: 100%; max-width: 100%"></canvas>
+        </div>
+      </div>
+      <!-- section informativa -->
+      <div class="section5 vertical">
+        <div class="espacio-top"></div>
+        <div class="espacio-center horizontal section-info">
+          <div class="section5-a vertical">
+            <h2>section 1</h2>
+          </div>
+          <div class="section5-b vertical">
+            <h2>section 2</h2>
+          </div>
+          <div class="section5-c vertical">
+            <h2>section 3</h2>
+          </div>
+        </div>
+        <div class="espacio-bottom"></div>
+      </div>
+      <!-- footer Copyright -->
+      <div class="footer vertical color-fondo">
+        <p style="color: white">© Copyright ©2022 All rights reserved</p>
+      </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="script-salary-calculator.js"></script>
+    <script src="charts-salary-calculator.js"></script>
+  </body>
+</html>
