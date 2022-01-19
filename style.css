@@ -77,7 +77,7 @@ p {
   height: 200px;
 }
 .cumplir {
-  color: rgb(66, 189, 236, 0.8);
+  color: rgb(66, 189, 236);
   font-weight: bolder;
   font-size: 40px;
 }
@@ -181,7 +181,6 @@ p {
 }
 
 .text-section-4 {
-  font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 22px;
 }
@@ -405,4 +404,64 @@ p {
 
 .btn {
   color: aquamarine;
+}
+
+.section5 {
+  position: relative;
+  display: flex;
+}
+
+.title-section-5 {
+  top: 50px;
+  position: absolute;
+  color: rgb(66, 189, 236);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.img-section-5 {
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 100px;
+  height: 500px;
+  width: 600px;
+  border-radius: 10px;
+  left: 50px;
+}
+
+.text-section-5 {
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  font-size: 20px;
+  left: 50px;
+  color: rgb(66, 189, 236);
+}
+
+.parrafo-section-5 {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-direct {
+  background-color: #008cba;
+  font-size: 20px;
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  position: absolute;
+  color: aliceblue;
+  border: none;
+  bottom: 160px;
+  left: 160px;
+}
+
+.btn-direct:hover {
+  background-color: #57d0f8; /* Green */
+  color: white;
+}
+
+.btn-inicio {
+  text-decoration: none;
 }

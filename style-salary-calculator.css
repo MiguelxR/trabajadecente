@@ -19,6 +19,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 600px;
 }
 .boton {
   padding: 5px;
@@ -101,4 +102,13 @@ input {
 }
 .footer {
   height: 100px;
+}
+
+.btn-inicio {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-inicio:hover {
+  color: white;
 }
