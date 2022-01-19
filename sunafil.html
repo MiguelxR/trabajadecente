@@ -5,10 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="stylesDerecho.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@500&display=swap"
       rel="stylesheet"
@@ -24,213 +42,497 @@
   </head>
   <body id="body">
     <!-- header y navbar lateral -->
-        <header  style="background-color: #070d18" class="sticky-top">
-        <div class="nav flex-column "  >
-          <div class="navbar">
-            <nav class="navbar navbar-light fixed-top">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="tributos.html" style="color: white">
-                  <img
-                    src="imagenes/grey-marble-column-details-on-building.jpg"
-                    alt=""
-                    width="100"
-                    height="64"
-                    class="d-inline-block align-text-center"
-                    style="border-radius: 15px; margin-right: 15px;"
-                  />
-                  Sunafil
-                </a>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="offcanvas"
-                  data-bs-target="#offcanvasNavbar"
-                  aria-controls="offcanvasNavbar"
-                  style="background-color: white"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div
-                  class="offcanvas offcanvas-end"
-                  tabindex="-1"
-                  id="offcanvasNavbar"
-                  aria-labelledby="offcanvasNavbarLabel"
-                >
-                  <div class="offcanvas-header">
-                    <img src="imagenes/workers (1).png" alt="logo" />
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                      Trabaja Decente
-                    </h5>
-                    <button
-                      type="button"
-                      class="btn-close text-reset"
-                      data-bs-dismiss="offcanvas"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="offcanvas-body" style="background-color: #42bdec">
-                    <ul class="navbar-nav flex-grow-1 pe-3">
-                      <li class="nav-item">
-                        <a
-                          style="color: white"
-                          class="nav-link active"
-                          aria-current="page"
-                          href="index.html"
-                          ><img
-                            src="imagenes/home.png"
-                            alt="inicio"
-                            width="50"
-                            height="44"
-                          />
-                          Inicio</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a
-                          style="color: white"
-                          class="nav-link"
-                          href="derecho.html"
-                          ><img
-                            src="imagenes/laws.png"
-                            alt="derechos"
-                            width="50"
-                            height="44"
-                          />
-                          Derechos Laborales</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a style="color: white" class="nav-link" href="tributos.html"
-                          ><img
-                            src="imagenes/money-bag (1).png"
-                            alt="tributacion"
-                            width="50"
-                            height="44"
-                          />
-                          Tributación</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a style="color: white" class="nav-link" href="sunafil.html"
-                          ><img
-                            src="imagenes/college.png"
-                            alt="sunafil"
-                            width="50"
-                            height="44"
-                          />
-                          Sunafil</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a style="color: white" class="nav-link" href="calculadora.html">
-                          <i class="fas fa-calculator" style="font-size: 45px; margin-right: 9px;"></i>  
-                          Calculadoras</a
-                        >
-                      </li>
-                    </ul>
-                    <form class="d-flex">
-                      <input
-                        class="form-control me-2"
-                        type="search"
-                        placeholder="Search"
-                        aria-label="Search"
-                      />
-                      <button class="btn align-text-center" type="submit">
-                        Search
-                      </button>
-                    </form>
-                  </div>
+    <header
+      style="background-color: rgb(66, 189, 236, 1)"
+      class="sticky-top navbar-derechos"
+    >
+      <div class="nav flex-colum">
+        <div class="navbar">
+          <nav class="navbar navbar-light fixed-end">
+            <div class="container-fluid">
+              <div
+                class="navbar-brand container-navbar-derechos"
+                style="color: white"
+              >
+                <img
+                  src="imagenes/grey-marble-column-details-on-building.jpg"
+                  alt=""
+                  width="100"
+                  height="64"
+                  class="d-inline-block align-text-center img-derechos"
+                  style="border-radius: 15px; margin-right: 15px"
+                />
+                <h1 class="Derechos-title">SUNAFIL</h1>
+              </div>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+                style="background-color: white"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="offcanvas offcanvas-end"
+                tabindex="-1"
+                id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel"
+              >
+                <div class="offcanvas-header">
+                  <img src="imagenes/workers (1).png" alt="logo" />
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                    Trabaja Decente
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close text-reset"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body" style="background-color: #42bdec">
+                  <ul class="navbar-nav flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a
+                        style="color: white"
+                        class="nav-link active"
+                        aria-current="page"
+                        href="index.html"
+                        ><img
+                          src="imagenes/home.png"
+                          alt="inicio"
+                          width="50"
+                          height="44"
+                        />
+                        Inicio</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        style="color: white"
+                        class="nav-link"
+                        href="derecho.html"
+                        ><img
+                          src="imagenes/laws.png"
+                          alt="derechos"
+                          width="50"
+                          height="44"
+                        />
+                        Derechos Laborales</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        style="color: white"
+                        class="nav-link"
+                        href="tributos.html"
+                        ><img
+                          src="imagenes/money-bag (1).png"
+                          alt="tributacion"
+                          width="50"
+                          height="44"
+                        />
+                        Tributación</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        style="color: white"
+                        class="nav-link"
+                        href="sunafil.html"
+                        ><img
+                          src="imagenes/college.png"
+                          alt="tributacion"
+                          width="50"
+                          height="44"
+                        />
+                        Sunafil</a
+                      >
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        style="color: white"
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="offcanvasNavbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Calculadoras
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="offcanvasNavbarDropdown"
+                      >
+                        <li><a class="dropdown-item" href="#">...</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">...</a>
+                        </li>
+                        <li>
+                          <hr class="dropdown-divider" />
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Something else here</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                    <input
+                      class="form-control me-2"
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search"
+                    />
+                    <button class="btn align-text-center" type="submit">
+                      Search
+                    </button>
+                  </form>
                 </div>
               </div>
-            </nav>
-            <div></div>
-          </div>
+            </div>
+          </nav>
+          <div></div>
         </div>
-      
+      </div>
     </header>
     <!-- parrafo explicativo -->
     <div class="container m-4">
-      <h4>Sunafil</h4>
-      <p>
-        <p>
-
-          aqui va una pequeña definicion 
-        </p>
-        Lorem ipsum dolor, sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum temporibus libero corrupti facilis? Id, illo ducimus sit, necessitatibus vel ab alias fuga cumque nobis inventore laboriosam sed maxime fugiat quasi!
-        Debitis alias dicta, sit cumque rerum sint quos nesciunt quod impedit? A saepe architecto dolorum dolores laudantium id excepturi consectetur neque! Maiores sunt debitis molestias maxime quibusdam eos quo sint!
-        adipisicing elit. Qui facere vero error, molestiae debitis saepe quo
-        quia in culpa, tenetur maiores nulla libero nisi! Asperiores, atque!
-        Minus, ipsam? Facere, natus. Quo doloremque impedit, at quae in
-        molestiae architecto perferendis aperiam. Mollitia incidunt rerum
-        ducimus culpa perspiciatis animi. Laudantium adipisci itaque suscipit
-        doloribus fugit, ex facere accusamus reiciendis mollitia tempora
-        voluptates? 
-        <p>
-
-          a continuacion reflejaremos los preguntas mas comunes
-        </p>
+      <h2 class="subtitle-derechos">SUNAFIL</h2>
+      <p class="texto-derechos-1">
+        La Superintendencia Nacional de Fiscalización Laboral (SUNAFIL) es la
+        entidad pública mediante la cual el Estado Peruano cumple el compromiso
+        de garantizar el respeto de los derechos de los trabajadores, así como
+        generar las condiciones adecuadas para el desarrollo de las actividades
+        económicas de las empresas, promoviendo su formalidad y productividad.
+        <br />
+        <br />
+        La SUNAFIL tiene como función principal la de regular las relaciones
+        entre trabajadores y sus empleadores en todo el país, asegurándose que
+        se cumplan las normas y se respeten los derechos y libertades de ambas
+        partes.
       </p>
     </div>
     <!-- acordeones -->
     <div>
-    <div class="accordion" id="accordionExample" >
-        <div class="accordion-item" >
-    <h2 class="accordion-header" id="headingOne" >
-      <button style="background-color: #070d18; color: white;" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Accordion Item #1
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body container m-3">
-        <strong>This is the first item's accordion body.</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, ratione vel! Deserunt, in id? Incidunt amet veritatis voluptas! Quam tempore veritatis facilis unde nulla vel aliquid illo molestias labore similique. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color: #070d18; color: white;">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body container m-3">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background-color: #070d18; color: white;">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="accordion-body container m-3">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-</div>
-    </div>
-    <!-- section 5 -->
-      <div class="section5 vertical">
-        <div class="espacio-top"></div>
-        <div class="espacio-center horizontal">
-          <div class="section5-a vertical">
-            <h2>section 1</h2>
-          </div>
-          <div class="section5-b vertical">
-            <h2>section 2</h2>
-          </div>
-          <div class="section5-c vertical">
-            <h2>section 3</h2>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              style="
+                background-color: rgba(1, 132, 184, 0.9);
+                color: white;
+                border: solid 1px white;
+                font-size: 25px;
+                font-weight: 400;
+              "
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Funciones de la SUNAFIL
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body container m-3 text-acordion">
+              Además de la actividad principal descrita antes la SUNAFIL posee
+              otras funciones específicas. Describiremos algunas de ellas a
+              continuación:
+              <br />
+              <br />
+              <ul>
+                <li>Ejecutar las funciones de la fiscalización laboral.</li>
+                <br />
+                <li>
+                  Aprobar las políticas institucionales en materia de inspección
+                  laboral.
+                </li>
+                <br />
+                <li>
+                  Formular y proponer leyes y normas en materia de derechos
+                  laborales.
+                </li>
+                <br />
+                <li>
+                  Vigilar y exigir el cumplimiento de la ley laboral y los
+                  derechos de los trabajadores.
+                </li>
+                <br />
+                <li>
+                  Imponer sanciones legales y económicas cuando no se cumple con
+                  sus exigencias.
+                </li>
+                <br />
+                <li>
+                  Realizar y promover actividades de fomento de las normas
+                  laborales.
+                </li>
+                <br />
+                <li>
+                  Brindar asistencia técnica especializada a los trabajadores y
+                  empleadores.
+                </li>
+                <br />
+                <li>
+                  Ejercer la ejecución coactiva sobre sanciones que haya
+                  impuesto anteriormente.
+                </li>
+                <br />
+                <li>Suscribir convenios con otras entidades.</li>
+                <br />
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="espacio-bottom"></div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+              style="
+                background-color: rgba(1, 132, 184, 0.9);
+                color: white;
+                border: solid 1px white;
+                font-size: 25px;
+                font-weight: 400;
+              "
+            >
+              La Fiscalización laboral
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body container m-3">
+              <p class="text-acordion">
+                Se trata de un procedimiento rutinario que llevan a cabo los
+                funcionarios e inspectores de la SUNAFIL. Consiste en una serie
+                de visitas y revisiones de la actividad empresarial para
+                garantizar que las relaciones laborales se desarrollen con
+                armonía, legalidad y veracidad.
+                <br />
+                <br />
+                Todas las empresas se encuentran obligadas a someterse a una
+                fiscalización por lo menos una vez al año. Esta también se puede
+                producir por solicitud o denuncia del trabajador, o bien por
+                voluntad del organismo. Los especialistas que llevan a cabo la
+                fiscalización laboral mediante inspecciones son conocidos como
+                inspectores SUNAFIL
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+              style="
+                background-color: rgba(1, 132, 184, 0.9);
+                color: white;
+                border: solid 1px white;
+                font-size: 25px;
+                font-weight: 400;
+              "
+            >
+              Sanciones que puede imponer
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body container m-3 text-acordion">
+              Las principales sanciones que puede imponer un inspector SUNAFIL
+              son de carácter monetario y se expresan en multas. Si durante la
+              inspección laboral se hallan irregularidades o faltas a la
+              normativa laboral se pueden imponer multas que van de los 50 UIT
+              hasta los 200, dependiendo de la gravedad de la falta.
+            </div>
+          </div>
+        </div>
+        <p>
+          <button
+            class="accordion-button collapsed btn-derechos"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseExample"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+            style="
+              background-color: rgba(1, 132, 184, 0.9);
+              color: white;
+              border: solid 1px white;
+              font-size: 25px;
+              font-weight: 400;
+            "
+            data-bs-parent="#accordionExample"
+          >
+            Seguros
+          </button>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body text-acordion">
+            De estar en el Régimen Ordinario, la empresa está obligada a
+            inscribir a su colaborador en EsSalud. Este cargo es para el
+            empleador. Si está laborando en una pequeña empresa, de la misma
+            manera. En cambio, en el régimen de micro empresa, está el tema del
+            SIS que es subvencionado una parte por el Estado y otra por el
+            empleador. Adicionalmente, los trabajadores pueden acceder a las EPS
+            con un pago adicional.
+          </div>
+        </div>
+        <p></p>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+                style="
+                  background-color: rgba(1, 132, 184, 0.9);
+                  color: white;
+                  border: solid 1px white;
+                  font-size: 25px;
+                  font-weight: 400;
+                "
+              >
+                Aporte de pensiones
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body text-acordion">
+                El Perú tiene un esquema de pensiones mixto. Los trabajadores
+                pueden elegir entre pertenecer al Sistema Nacional de Pensiones
+                (SNP), a cargo de la ONP, o al Sistema Privado de Pensiones
+                (SPP), administrado por las AFP. Si eliges el sistema AFP, tu
+                aporte mensual sería de 11.97% mensual, mientras que con el
+                sistema publico de la ONP tu aporte sería del 13.0%.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+                style="
+                  background-color: rgba(1, 132, 184, 0.9);
+                  color: white;
+                  border: solid 1px white;
+                  font-size: 25px;
+                  font-weight: 400;
+                "
+              >
+                Liquidación
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body text-acordion">
+                <br />
+                La liquidación de beneficios sociales se refiere al pago de
+                todos los beneficios pendientes una vez finalizada la relación
+                de trabajo. Ello incluye aquellos que comprenden desde la
+                Compensación por Tiempo de Servicios (CTS). Incluyendo a su vez,
+                las vacaciones truncas, gratificaciones truncas, entre otros.
+
+                <br />
+                <br />
+
+                Cuando el trabajador cesa definitivamente sus labores, el
+                empleador debe cancelarle todos los derechos económicos que le
+                adeude hasta ese momento. Normalmente: vacaciones,
+                gratificaciones, CTS, indemnización por despido, asignación
+                familiar, horas extras, remuneraciones y participación en
+                utilidades. Para ello realiza una liquidación de todos los
+                conceptos adeudados y eso se llama coloquialmente liquidación de
+                beneficios sociales.
+
+                <br />
+                <br />
+                <br />
+
+                <strong>¿Cuándo se paga la liquidación?</strong>
+                <br />
+                <br />
+                El pago se realizará dentro de las 48 horas de producido el cesa
+                de la trabajadora o el trabajador. De lo contrario empezará a
+                computarse intereses laborales fijados por la Superintendencia
+                de Banca y Seguros.
+
+                <br />
+                <br />
+                <br />
+
+                <strong> ¿Qué sucede si no se paga a tiempo?</strong>
+                <br />
+                <br />
+                Si la entidad empleadora no paga la liquidación en el plazo, la
+                trabajadora o el trabajador tiene la opción de recurrir a un
+                proceso inefectivo. Este es realizado por la Superintendencia
+                Nacional de Fiscalización Laboral. También puede acudir a un
+                proceso conciliatorio en el Ministerio del Trabajo y Promoción
+                del Empleo. También ante el poder Judicial. Las trabajadoras y
+                los trabajadores tienen 4 años para exigir el pago de beneficios
+                sociales y remuneraciones de devengados. Estos deben ser
+                computados desde el cese de la relación laboral
+                <br />
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+    <!-- section 5 -->
+    <div class="footer-container"></div>
     <!-- footer Copyright -->
     <footer>
-        <div class="footer vertical">
+      <div class="footer vertical">
         <p>© Copyright ©2022 All rights reserved</p>
       </div>
     </footer>
@@ -239,5 +541,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
