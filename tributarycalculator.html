@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style-tributary-calculator.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="navbar horizontal color-fondo">
+        <div>
+          <h1 style="color: white">TributaryCalculator</h1>
+        </div>
+        <div class="horizontal">
+          <button class="home">Inicio</button>
+
+          <button class="services">Servicios</button>
+
+          <button class="contact">Contactanos</button>
+          <a href="Login.html"> <button class="login">Login</button></a>
+        </div>
+      </div>
+      <h1 style="margin: 10px 20px">Rentas de 1era Categoria</h1>
+      <div class="espacios">
+        <div class="formulario">
+          <form action="">
+            <div class="formulario2">
+              <label for="fechaIngreso">Fecha de Cobro</label>
+              <input
+                type="date"
+                name="fechaIngreso"
+                id="fechaIngreso"
+                placeholder="dd/mm/aaaa"
+              />
+            </div>
+            <div class="formulario2">
+              <label for="sueldo">Monto Cobrado x Alquiler</label>
+              <input
+                type="number"
+                name="sueldo"
+                id="sueldo"
+                placeholder="Monto SOLES"
+              />
+            </div>
+
+            <div class="formulario2">
+              <label for=""></label>
+              <button class="boton">Calcular</button>
+            </div>
+          </form>
+          <div>
+            <div class="formulario2">
+              <label for="remuneracion">Monto Total a Pagar</label>
+              <input type="text" name="remuneracion" id="remuneracion" />
+            </div>
+          </div>
+        </div>
+        <div class="formulario">
+          <canvas id="pie" style="width: 100%; max-width: 100%"></canvas>
+        </div>
+      </div>
+      <h1 style="margin: 10px 20px">Rentas de 2da Categoria</h1>
+      <div class="espacios">
+        <div class="formulario">
+          <form action="">
+            <div class="formulario2">
+              <label for="fechaIngreso">Fecha de adqusicion</label>
+              <input
+                type="date"
+                name="fechaIngreso"
+                id="fechaIngreso"
+                placeholder="dd/mm/aaaa"
+              />
+            </div>
+            <div class="formulario2">
+              <label for="valorAdq">Valor de Adquision</label>
+              <input
+                type="number"
+                name="valorAdq"
+                id="valorAdq"
+                placeholder="Valor de Adquision"
+              />
+            </div>
+            <div class="formulario2">
+              <label for="fechaVenta">Fecha de Venta</label>
+              <input
+                type="date"
+                name="fechaVenta"
+                id="fechaVenta"
+                placeholder="dd/mm/aaaa"
+              />
+            </div>
+            <div class="formulario2">
+              <label for="valorVenta">Valor de Venta</label>
+              <input
+                type="number"
+                name="valorVenta"
+                id="valorVenta"
+                placeholder="Valor de Venta"
+              />
+            </div>
+            <div class="formulario2">
+              <label for="valorICM">Valor de ICM</label>
+              <input type="number" name="valorICM" id="valorICM" />
+            </div>
+
+            <div class="formulario2">
+              <label for=""></label>
+              <button class="boton">Calcular</button>
+            </div>
+          </form>
+          <div>
+            <div class="formulario2">
+              <label for="remuneracion">Costo Computable</label>
+              <input type="text" name="remuneracion" id="remuneracion" />
+            </div>
+            <div class="formulario2">
+              <label for="jornalNeto">Ganancia de Capital</label>
+              <input type="text" name="jornalNeto" id="jornalNeto" />
+            </div>
+            <div class="formulario2">
+              <label for="gratificacion">Impuesto a Pagar</label>
+              <input type="text" name="gratificacion" id="gratificacion" />
+            </div>
+          </div>
+        </div>
+        <div class="formulario">
+          <canvas id="pie2" style="width: 100%; max-width: 100%"></canvas>
+        </div>
+      </div>
+      <h1 style="margin: 10px 20px">Rentas de 3era Categoria</h1>
+      <div class="espacios">
+        <div class="formulario">
+          <form action="">
+            <div class="formulario2">
+              <label for="sueldo">Total de Ingresos Obtenidos x Renta</label>
+              <input
+                type="number"
+                name="sueldo"
+                id="sueldo"
+                placeholder="Monto SOLES"
+              />
+            </div>
+
+            <div class="formulario2">
+              <label for=""></label>
+              <button class="boton">Calcular</button>
+            </div>
+          </form>
+          <div>
+            <div class="formulario2">
+              <label for="remuneracion">Impuesto a Pagar</label>
+              <input type="text" name="remuneracion" id="remuneracion" />
+            </div>
+          </div>
+        </div>
+        <div class="formulario">
+          <canvas id="pie3" style="width: 100%; max-width: 100%"></canvas>
+        </div>
+      </div>
+
+      <h1 style="margin: 10px 20px">Rentas de 4ta Categoria</h1>
+      <div class="espacios">
+        <div class="formulario">
+          <form action="">
+            <div class="formulario2">
+              <label for="sueldo">Ingreso Mensual</label>
+              <input
+                type="number"
+                name="sueldo"
+                id="sueldo"
+                placeholder="Monto SOLES"
+              />
+            </div>
+
+            <div class="formulario2">
+              <label for=""></label>
+              <button class="boton">Calcular</button>
+            </div>
+          </form>
+          <div>
+            <div class="formulario2">
+              <label for="remuneracion">Ingreso Anual</label>
+              <input type="text" name="remuneracion" id="remuneracion" />
+            </div>
+            <div class="formulario2">
+              <label for="remuneracion">Deduccion del 20%</label>
+              <input type="text" name="remuneracion" id="remuneracion" />
+            </div>
+            <div class="formulario2">
+              <label for="remuneracion">Base Bruta</label>
+              <input type="text" name="remuneracion" id="remuneracion" />
+            </div>
+            <div class="formulario2">
+              <label for="remuneracion">Deduccion de 7 UIT</label>
+              <input type="text" name="remuneracion" id="remuneracion" />
+            </div>
+            <div class="formulario2">
+              <label for="remuneracion">Deduccion de 3 UIT</label>
+              <input type="text" name="remuneracion" id="remuneracion" />
+            </div>
+            <div class="formulario2">
+              <label for="remuneracion">Impuesto a Pagar</label>
+              <input type="text" name="remuneracion" id="remuneracion" />
+            </div>
+          </div>
+        </div>
+        <div class="formulario">
+          <canvas id="pie4" style="width: 100%; max-width: 100%"></canvas>
+        </div>
+      </div>
+      <h1 style="margin: 10px 20px">Rentas de 5ta Categoria</h1>
+      <div class="espacios">
+        <div class="formulario">
+          <form action="">
+            <div class="formulario2">
+              <label for="sueldoMensual">Sueldo Mensual</label>
+              <input
+                type="number"
+                name="sueldoMensual"
+                id="sueldoMensual"
+                placeholder="Monto SOLES"
+              />
+            </div>
+            <div class="formulario2">
+              <label for="sueldoAnual">Sueldo Anual</label>
+              <input
+                type="number"
+                name="sueldoAnual"
+                id="sueldoAnual"
+                placeholder="Monto SOLES"
+              />
+            </div>
+            <div class="formulario2">
+              <label for="gratiTotal">Gratificaciones Totales</label>
+              <input
+                type="number"
+                name="gratiTotal"
+                id="gratiTotal"
+                placeholder="Monto SOLES"
+              />
+            </div>
+            <div class="formulario2">
+              <label for="gratiEssalud">Essalud Gratificaciones</label>
+              <input
+                type="number"
+                name="gratiEssalud"
+                id="gratiEssalud"
+                placeholder="Monto SOLES"
+              />
+            </div>
+            <div class="formulario2">
+              <label for="bonificacion">Bonificaciones</label>
+              <input
+                type="number"
+                name="bonificacion"
+                id="bonificacion"
+                placeholder="Monto SOLES"
+              />
+            </div>
+
+            <div class="formulario2">
+              <label for=""></label>
+              <button class="boton">Calcular</button>
+            </div>
+          </form>
+          <div>
+            <div class="formulario2">
+              <label for="remuneracionAnual">Remuneracion Anual</label>
+              <input
+                type="text"
+                name="remuneracionAnual"
+                id="remuneracionAnual"
+              />
+            </div>
+            <div class="formulario2">
+              <label for="deduccion5">Deduccion de 5 UIT</label>
+              <input type="text" name="deduccion5" id="deduccion5" />
+            </div>
+            <div class="formulario2">
+              <label for="deduccion7">Deduccion de 7 UIT</label>
+              <input type="text" name="deduccion7" id="deduccion7" />
+            </div>
+            <div class="formulario2">
+              <label for="deduccion20">Deduccion de 20 UIT</label>
+              <input type="text" name="deduccion20" id="deduccion20" />
+            </div>
+            <div class="formulario2">
+              <label for="deduccion35">Deduccion de 35 UIT</label>
+              <input type="text" name="deduccion35" id="deduccion35" />
+            </div>
+            <div class="formulario2">
+              <label for="deduccion45">Deduccion de 45 UIT</label>
+              <input type="text" name="deduccion45" id="deduccion45" />
+            </div>
+            <div class="formulario2">
+              <label for="impuestoTotal">Impuesto Total a Pagar</label>
+              <input type="text" name="impuestoTotal" id="impuestoTotal" />
+            </div>
+            <div class="formulario2">
+              <label for="impuestoMensual">Impuesto Mensual</label>
+              <input type="text" name="impuestoMensual" id="impuestoMensual" />
+            </div>
+          </div>
+        </div>
+        <div class="formulario">
+          <canvas id="pie5" style="width: 100%; max-width: 100%"></canvas>
+        </div>
+      </div>
+      <!-- section informativa -->
+      <div class="section5 vertical">
+        <div class="espacio-top"></div>
+        <div class="espacio-center horizontal section-info">
+          <div class="section5-a vertical">
+            <h2>section 1</h2>
+          </div>
+          <div class="section5-b vertical">
+            <h2>section 2</h2>
+          </div>
+          <div class="section5-c vertical">
+            <h2>section 3</h2>
+          </div>
+        </div>
+        <div class="espacio-bottom"></div>
+      </div>
+      <!-- footer Copyright -->
+      <div class="footer vertical color-fondo">
+        <p style="color: white">© Copyright ©2022 All rights reserved</p>
+      </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="script-tributary-calculator.js"></script>
+    <script src="charts-tributary-calculator.js"></script>
+  </body>
+</html>
