@@ -455,6 +455,7 @@ p {
   border: none;
   bottom: 160px;
   left: 160px;
+  text-decoration: none;
 }
 
 .btn-direct:hover {
