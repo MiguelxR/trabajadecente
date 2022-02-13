@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+body {
+  margin: 0;
+  font-family: "Patua One", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* Start Navbar */
+.sect-navbar {
+  background-color: #070d18;
+}
+.botones-nav {
+  line-height: 4;
+  border: none;
+  background-color: #070d18;
+  /* transition: all 300ms; */
+  position: relative;
+}
+.botones-nav::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: aqua;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: all 400ms;
+}
+.botones-nav:hover::before {
+  width: 100%;
+}
+/* .botones-nav:hover {
+  border-bottom: 1px solid aqua;
+} */
+Link,
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.home {
+  /* min-height: 100vh; */
+  min-height: 100vh;
+}
+/* End Navbar */
+
+/* Start Home */
+/* Start Section 1 */
+.section1 {
+  height: 600px;
+}
+.font-sect-1 {
+  font-weight: 900;
+  color: #ffffff;
+  /* text-shadow: 1px 1px 3px #ffffff; */
+  text-shadow: 0.1em 0.25em 0.2em rgb(0, 0, 0);
+}
+.imagen {
+  background-position: center;
+  background: url(/public/assets/img/factory-workers2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.decoration {
+  height: 75px;
+  width: 100%;
+  background-color: #070d18;
+}
+/* End Section 1 */
+
+/* Star Section 2 */
+.section-2 {
+  height: 400px;
+}
+.section2-a {
+  width: 50%;
+  height: 200px;
+  padding-right: 20px;
+}
+.section2-b {
+  width: 50%;
+  height: 200px;
+  padding-left: 20px;
+}
+/* End Section 2 */
+
+/* Star Section 3 */
+.section-3 {
+  height: 400px;
+  width: 100%;
+  background-color: #070d18;
+}
+.img-card {
+  height: 100%;
+}
+.section-3-2 {
+  height: 50%;
+  width: 100%;
+}
+.cards {
+  height: 100%;
+  width: 25%;
+  background-color: white;
+  border-radius: 20px;
+}
+.div-img {
+  height: 40%;
+  padding: 5px;
+}
+/* End Section 3 */
+
+/* Start Section 4 */
+.section-4 {
+  height: 400px;
+  width: 100%;
+}
+.section-4-2 {
+  height: 50%;
+  width: 100%;
+}
+.section4-a {
+  width: 50%;
+  height: 300px;
+  padding-right: 40px;
+}
+.section4-b {
+  width: 50%;
+  height: 300px;
+  padding-left: 20px;
+}
+.img-section4 {
+  height: 100%;
+  width: 70%;
+}
+/* End Section 4 */
+/* End Home */
+
+/* Star Footer */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffffff;
+  line-height: 20px;
+  border-top: 1px solid #dddddd;
+  overflow: hidden;
+}
+.footer nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+.footer nav > ul a:not(.btn) {
+  color: #777777;
+  display: block;
+  margin-bottom: 3px;
+}
+.footer .social-area {
+  padding: 15px 0;
+}
+.footer .social-area h5 {
+  padding-bottom: 15px;
+}
+.footer .copyright {
+  color: #777777;
+  padding: 10px 15px;
+  margin: 15px 3px;
+  line-height: 20px;
+  text-align: center;
+}
+.footer hr {
+  border-color: #f5f5f5;
+}
+.footer .title {
+  color: #777777;
+}
+.footer .title {
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.footer .btn-social {
+  color: #9a9a9a;
+}
+
+.footer:not(.footer-big) nav > ul {
+  font-size: 16px;
+}
+.footer:not(.footer-big) nav > ul li {
+  margin-left: 20px;
+  float: left;
+}
+.footer:not(.footer-big) nav > ul a {
+  padding: 10px 0px;
+  margin: 15px 10px 15px 0px;
+}
+
+.footer-color-gray {
+  background-color: #f5f5f5;
+}
+
+.footer-color-black,
+.footer-transparent {
+  background-color: #070d18;
+  color: #dddddd;
+}
+.footer-color-black nav > ul a,
+.footer-transparent nav > ul a {
+  color: #ffffff;
+}
+.footer-color-black .social-area > a:not(.btn),
+.footer-transparent .social-area > a:not(.btn) {
+  color: #ffffff;
+}
+.footer-color-black .btn-social,
+.footer-transparent .btn-social {
+  color: #ffffff;
+}
+.footer-color-black hr,
+.footer-transparent hr {
+  border-color: #444444;
+}
+.footer-color-black .title,
+.footer-transparent .title {
+  color: #dddddd;
+}
+
+.footer-transparent {
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+.footer-transparent .container {
+  z-index: 2;
+  position: relative;
+}
+.footer-transparent::after {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(17, 17, 17, 0.8);
+  display: block;
+  content: "";
+  z-index: 1;
+}
+
+.footer-big {
+  padding-top: 30px;
+}
+.footer-big hr {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.footer-big .container > hr {
+  margin-top: 50px;
+}
+.footer-big .copyright {
+  margin: 10px 0px 20px;
+}
+.footer-big .social-area > * {
+  margin: 0 15px;
+}
+.footer-big nav > ul {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+.footer-big nav > ul li {
+  float: none;
+}
+.footer-big nav > ul .btn {
+  margin-bottom: 5px;
+}
+.footer-big nav > ul .btn-social.btn-simple {
+  padding: 0 0 4px 0;
+}
+.footer-big .form-group {
+  margin-top: 15px;
+}
+.footer-big .numbers h4 {
+  margin: 0 0 10px 0;
+}
+.footer-hover:hover {
+  transition: all 700ms;
+  color: #777777;
+}
+#footer-hover2:hover {
+  transition: all 700ms;
+  color: #dddddd;
+}
+/* End Footer */
+
+/* Star Register-Login */
+.body {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.img-register {
+  width: 70vw;
+  height: 100vh;
+}
+.limiter-register {
+  width: 30vw;
+  height: 100vh;
+  background-color: #070d18;
+  position: relative;
+}
+.limiter-login {
+  width: 30vw;
+  height: 100vh;
+  background-color: #587c76;
+  position: relative;
+}
+.p-b-43 {
+  padding-bottom: 43px;
+}
+.p-b-20 {
+  padding-bottom: 20px;
+}
+.p-t-46 {
+  padding-top: 46px;
+}
+.form-register {
+  width: 100%;
+  color: black;
+}
+.input-register {
+  border-radius: 10px;
+  border: none;
+  color: #444444;
+}
+.boton-register {
+  border-radius: 10px;
+  background-color: rgb(1, 151, 221);
+  width: 100%;
+  border: none;
+  transition: all 700ms;
+}
+.boton-register:hover {
+  background-color: aqua;
+  transition: all 700ms;
+}
+.text-login {
+  color: rgb(219, 218, 218);
+  font-weight: 600;
+}
+.text-login-2 {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+.icono-login {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 30px;
+  color: #ffffff;
+}
+.icono-login:hover {
+  color: #070d18;
+}
+.icono-register {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 30px;
+  color: #ffffff;
+}
+.icono-register:hover {
+  color: rgb(1, 151, 221);
+}
+/* End Register-Login */

@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="stylesDerecho.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Conoce tus derechos</title>
+  </head>
+  <body id="body">
+    <!-- header y navbar lateral -->
+    <header
+      style="background-color: rgb(66, 189, 236, 1)"
+      class="sticky-top navbar-derechos"
+    >
+      <div class="nav flex-colum">
+        <div class="navbar">
+          <nav class="navbar navbar-light fixed-end">
+            <div class="container-fluid">
+              <div
+                class="navbar-brand container-navbar-derechos"
+                style="color: white"
+              >
+                <img
+                  src="imagenes/lawyer-filling-document.jpg"
+                  alt=""
+                  width="100"
+                  height="64"
+                  class="d-inline-block align-text-center img-derechos"
+                  style="border-radius: 15px; margin-right: 15px"
+                />
+                <h1 class="Derechos-title">Derechos Laborales</h1>
+              </div>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+                style="background-color: white"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="offcanvas offcanvas-end"
+                tabindex="-1"
+                id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel"
+              >
+                <div class="offcanvas-header">
+                  <img src="imagenes/workers (1).png" alt="logo" />
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                    Trabaja Decente
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close text-reset"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body" style="background-color: #42bdec">
+                  <ul class="navbar-nav flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a
+                        style="color: white"
+                        class="nav-link active"
+                        aria-current="page"
+                        href="index.html"
+                        ><img
+                          src="imagenes/home.png"
+                          alt="inicio"
+                          width="50"
+                          height="44"
+                        />
+                        Inicio</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        style="color: white"
+                        class="nav-link"
+                        href="derecho.html"
+                        ><img
+                          src="imagenes/laws.png"
+                          alt="derechos"
+                          width="50"
+                          height="44"
+                        />
+                        Derechos Laborales</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        style="color: white"
+                        class="nav-link"
+                        href="tributos.html"
+                        ><img
+                          src="imagenes/money-bag (1).png"
+                          alt="tributacion"
+                          width="50"
+                          height="44"
+                        />
+                        Tributación</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        style="color: white"
+                        class="nav-link"
+                        href="sunafil.html"
+                        ><img
+                          src="imagenes/college.png"
+                          alt="tributacion"
+                          width="50"
+                          height="44"
+                        />
+                        Sunafil</a
+                      >
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        style="color: white"
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="offcanvasNavbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Calculadoras
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="offcanvasNavbarDropdown"
+                      >
+                        <li><a class="dropdown-item" href="#">...</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">...</a>
+                        </li>
+                        <li>
+                          <hr class="dropdown-divider" />
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Something else here</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                    <input
+                      class="form-control me-2"
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search"
+                    />
+                    <button class="btn align-text-center" type="submit">
+                      Search
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div></div>
+        </div>
+      </div>
+    </header>
+    <!-- parrafo explicativo -->
+    <div class="container m-4">
+      <h2 class="subtitle-derechos">Derechos legales del trabajador</h2>
+      <p class="texto-derechos-1">
+        Los derechos del trabajador o derechos laborales son un conjunto de
+        obligaciones que debe cumplir el empleador y que están reguladas por una
+        serie de normas y leyes del estado peruano. En el Perú, las
+        instituciones encargadas de velar por los derechos que le corresponden
+        al trabajador son el Ministerio de Trabajo, la Superintendencia de
+        Nacional de Fiscalización Laboral (SUNAFIL) y el Poder Judicial a través
+        de los juzgados laborales y otras salas. <br />
+        <br />
+        Abajo te damos más detalles sobre los beneficios que tienes por ley al
+        encontrarte en planilla.
+      </p>
+    </div>
+    <!-- acordeones -->
+    <div>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              style="
+                background-color: rgba(1, 132, 184, 0.9);
+                color: white;
+                border: solid 1px white;
+                font-size: 25px;
+                font-weight: 400;
+              "
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              El contrato de trabajo
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body container m-3 text-acordion">
+              El contrato de trabajo es el acuerdo entre trabajador y empleador. En él se determinan las características de la relación laboral. Contiene un conjunto de condiciones que ambos se comprometen a cumplir. Todo contrato tiene 3 elementos esenciales: la prestación del servicio, la remuneración y la subordinación.
+              <br>
+              <br>
+              <h2>¿Cuál es la importancia del contrato de trabajo?</h2>
+              <br>
+Su importancia consiste en brindar seguridad a las partes, sobre todo al trabajador. El contrato otorga derechos, deberes y obligaciones a ambas partes. Tales como la obligación del trabajador de prestar el servicio y la del empleador de pagar la remuneración que corresponde.
+<br>
+<br>
+Sin embargo, el contrato laboral no es necesario para presumir la existencia de una relación de trabajo. De esa manera, que no se haya firmado dicho documento no niega las obligaciones del empleador ante su trabajador. Esto se conoce como el Principio de primacía de la realidad.
+<br>
+<br>
+<h2>¿Qué datos contiene un contrato de trabajo?</h2>
+<br>
+Los datos que debe contener todo contrato de trabajo son los siguientes:
+<br>
+<br>
+<ul>
+  <li>Fecha y lugar de la celebración del contrato.</li>
+  <br>
+  <li>Datos del trabajador y del empleador o empresa.</li>
+  <br>
+  <li>Actividades que conforman el trabajo.</li>
+  <br>
+  <li>Condiciones de la prestación del trabajo.</li>
+  <br>
+  <li>Remuneración y otros beneficios.</li>
+  <br>
+  <li>Tiempo de vigencia del contrato</li>
+  <br>
+  <li>Otros aspectos.</li>
+</ul>
+            </div>
+          </div>
+        </div>
+        <p>
+          <div class="accordion-item">
+          <button
+            style="
+              background-color: rgba(1, 132, 184, 0.9);
+              color: white;
+              border: solid 1px white;
+              font-size: 25px;
+              font-weight: 400;
+              width: 100vw;
+              height: 60px;
+              text-align: start;
+            "
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseExample"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            <div class="title-box">Vacaciones</div>
+          </button>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="accordion-body container m-3 text-acordion">
+            Solo el trabajador en planilla tendrá 30 días de vacaciones luego de
+            cumplir 1 año en su centro de trabajo. Los trabajadores part-time no
+            tienen estipuladas las vacaciones, pero en algunas empresas,
+            mediante el convenio de la OIT, se les otorga 7 días de descanso
+            luego de 1 año. En caso que el trabajador no quiera salir de
+            vacaciones, la norma estipula que solo podrá vender la mitad de sus
+            vacaciones. En el caso de un trabajador regular, solo serán 15 días
+            vendidos y 15 descansados.
+          </div>
+        </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+              style="
+                background-color: rgba(1, 132, 184, 0.9);
+                color: white;
+                border: solid 1px white;
+                font-size: 25px;
+                font-weight: 400;
+              "
+            >
+              Horario de trabajo
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body container m-3">
+              <p class="text-acordion">
+                La jornada laborar, en un trabajador en planilla de Régimen
+                Ordinario, debe ser de 8 horas diarias o 48 horas semanales. Así
+                mismo, tener descansos semanales y en días feriados. Para el
+                régimen de par time, ellos trabajan menos de 4 horas diarias. Y
+                en el caso de los practicantes, dependerá de su horario de
+                estudios.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+              style="
+                background-color: rgba(1, 132, 184, 0.9);
+                color: white;
+                border: solid 1px white;
+                font-size: 25px;
+                font-weight: 400;
+              "
+            >
+              CTS
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body container m-3 text-acordion">
+              La CTS (Compensación por tiempo de servicio) es un beneficio
+              social de previsión que ha sido regulado con la finalidad de
+              otorgar a los trabajadores y a su familia un ingreso que le
+              permita cubrir las contingencias que genera el cese en el trabajo.
+              <br />
+              <br />El único trabajador que cuenta con este derecho laboral, es
+              el de planilla de Régimen Ordinario. Los colaboradores part-time
+              no tienen estabilidad laboral con este derecho.
+            </div>
+          </div>
+        </div>
+        <p>
+          <button
+            class="accordion-button collapsed btn-derechos"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseExample"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+            style="
+              background-color: rgba(1, 132, 184, 0.9);
+              color: white;
+              border: solid 1px white;
+              font-size: 25px;
+              font-weight: 400;
+            "
+            data-bs-parent="#accordionExample"
+          >
+            Seguros
+          </button>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body text-acordion">
+            De estar en el Régimen Ordinario, la empresa está obligada a
+            inscribir a su colaborador en EsSalud. Este cargo es para el
+            empleador. Si está laborando en una pequeña empresa, de la misma
+            manera. En cambio, en el régimen de micro empresa, está el tema del
+            SIS que es subvencionado una parte por el Estado y otra por el
+            empleador. Adicionalmente, los trabajadores pueden acceder a las EPS
+            con un pago adicional.
+          </div>
+        </div>
+        <p></p>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+                style="
+                  background-color: rgba(1, 132, 184, 0.9);
+                  color: white;
+                  border: solid 1px white;
+                  font-size: 25px;
+                  font-weight: 400;
+                "
+              >
+                Aporte de pensiones
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body text-acordion">
+                El Perú tiene un esquema de pensiones mixto. Los trabajadores
+                pueden elegir entre pertenecer al Sistema Nacional de Pensiones
+                (SNP), a cargo de la ONP, o al Sistema Privado de Pensiones
+                (SPP), administrado por las AFP. Si eliges el sistema AFP, tu
+                aporte mensual sería de 11.97% mensual, mientras que con el
+                sistema publico de la ONP tu aporte sería del 13.0%.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+                style="
+                  background-color: rgba(1, 132, 184, 0.9);
+                  color: white;
+                  border: solid 1px white;
+                  font-size: 25px;
+                  font-weight: 400;
+                "
+              >
+                Liquidación
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body text-acordion">
+                <br />
+                La liquidación de beneficios sociales se refiere al pago de
+                todos los beneficios pendientes una vez finalizada la relación
+                de trabajo. Ello incluye aquellos que comprenden desde la
+                Compensación por Tiempo de Servicios (CTS). Incluyendo a su vez,
+                las vacaciones truncas, gratificaciones truncas, entre otros.
+
+                <br />
+                <br />
+
+                Cuando el trabajador cesa definitivamente sus labores, el
+                empleador debe cancelarle todos los derechos económicos que le
+                adeude hasta ese momento. Normalmente: vacaciones,
+                gratificaciones, CTS, indemnización por despido, asignación
+                familiar, horas extras, remuneraciones y participación en
+                utilidades. Para ello realiza una liquidación de todos los
+                conceptos adeudados y eso se llama coloquialmente liquidación de
+                beneficios sociales.
+
+                <br />
+                <br />
+                <br />
+
+                <strong>¿Cuándo se paga la liquidación?</strong>
+                <br />
+                <br />
+                El pago se realizará dentro de las 48 horas de producido el cesa
+                de la trabajadora o el trabajador. De lo contrario empezará a
+                computarse intereses laborales fijados por la Superintendencia
+                de Banca y Seguros.
+
+                <br />
+                <br />
+                <br />
+
+                <strong> ¿Qué sucede si no se paga a tiempo?</strong>
+                <br />
+                <br />
+                Si la entidad empleadora no paga la liquidación en el plazo, la
+                trabajadora o el trabajador tiene la opción de recurrir a un
+                proceso inefectivo. Este es realizado por la Superintendencia
+                Nacional de Fiscalización Laboral. También puede acudir a un
+                proceso conciliatorio en el Ministerio del Trabajo y Promoción
+                del Empleo. También ante el poder Judicial. Las trabajadoras y
+                los trabajadores tienen 4 años para exigir el pago de beneficios
+                sociales y remuneraciones de devengados. Estos deben ser
+                computados desde el cese de la relación laboral
+                <br />
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section 5 -->
+    <div class="footer-container"></div>
+    <!-- footer Copyright -->
+    <footer>
+      <div class="footer vertical">
+        <p>© Copyright ©2022 All rights reserved</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

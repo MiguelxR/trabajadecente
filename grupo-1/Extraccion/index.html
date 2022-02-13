@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Ponte-Pilas</title>
+  </head>
+  <body>
+    <div class="contaner">
+      <!-- section 1 -->
+      <div class="section">
+        <div class="navbar horizontal">
+          <div>
+            <h1>Trabaja Decente</h1>
+          </div>
+          <div class="horizontal">
+            <button class="home">Inicio</button>
+            <button class="about">Sobre nosotros</button>
+            <button class="services">Servicios</button>
+            <button class="news">Noticias</button>
+            <button class="contact">Contactanos</button>
+            <a href="Login.html"> <button class="login">Login</button></a>
+          </div>
+        </div>
+
+        <img src="/imagenes/workers.png" class="img-fondo"/>
+        <!-- <div
+          class="img-fondo vertical"
+          style="background-image: url(imagenes/workers.png)"
+        > -->
+        <div class="section-1-container">
+          <div class="container-text">
+        <h2 class="row-3 ">Tus derechos importan, conócelos y hazlos</h2>
+          <h2 class="cumplir">CUMPLIR</h2>
+          <br />
+          <p class="text-section-1">
+            Te brindamos información sobre leyes laborales y tributacion para
+            hacertelo más sencillo.
+          </p>
+        </div>
+        </div>
+      </div>
+      <!-- section 2 -->
+      <div class="section2 vertical">
+        <div class="section2-1 vertical">
+          <h2 class="title-section-2">Desafío</h2>
+          <p class="text-section-2">
+            La pandemia del covid-19 a afectado de manera negativa el crecimiento económico del Perú y a impulsado el desempleo, la informalidad y la precarización laboral. Es por ello que la Organización de las Naciones Unidas (ONU), mediante los Objetivos de Desarrollo Sostenible, propone como indispensable para el desarrollo inclusivo y sostenible de toda la sociedad, el objetivo numero 8: <strong class="text-strong"> el trabajo decente.</strong> 
+          </p>
+          <br />
+        </div>
+
+        <div class="section2-2 horizontal">
+          <div class="section2-a vertical">
+            <p class="text-section-2">
+              La informalidad laboral es uno de los principales problemas socioeconómicos del Perú y es el causante de perpetuar la precarización, la explotación y discriminación, lamentablemente en el año 2021 se ha profundizado esta problemática en el país. 
+            </p>
+          </div>
+          <div class="section2-b">
+            <div>
+            <canvas class="grafico" id="myChart"></canvas>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 3 -->
+      <div class="section3 vertical">
+        <div class="section3-1 vertical">
+          <h2 class ="title-section-3">Sobre Nosotros</h2>
+          <p class="text-section-3">
+            Creemos en que la educación es el pilar fundamental para el desarrollo y la solución de los problemas sociales del país, por eso Lorem es una plataforma informativa que busca asesorarte sobre tus derechos como trabajador y brindarte herramientas para que puedas calcular las prestaciones sociales que por ley te corresponden. 
+          </p>
+          <br />
+        </div>
+        <div class="section3-2 horizontal">
+          <div class="card2 vertical">
+            <div>
+              <a href="derecho.html">
+
+                <img class="img-card" src="imagenes/legal-document.png" alt="derechos" /></div>
+              </a>
+              
+            <strong>Orientación de derechos laborales</strong>
+            <p>
+              Información de tus derechos laborales para que estés informado y
+              los hagas cumplir conforme a la norma.
+            </p>
+          </div>
+          <div class="card3 vertical">
+            <div>
+              <a href="tributos.html">
+
+                <img class="img-card" src="imagenes/tax.png" alt=" tributos" />
+              </a>
+            </div>
+            <strong>Orientacion de tributacion</strong>
+            <p>
+              Todo lo que nesecitas saber sobre tributación y cuales te
+              corresponde pagar.
+            </p>
+          </div>
+
+          <div class="card1 vertical">
+            <div>
+              <a href="calculadora.html">
+                <img class="img-card" src="imagenes/calculator.png" alt="" />
+              </a>
+            </div>
+            <strong>Calculadora de prestaciones sociales</strong>
+            <p>
+              Saca el calculo de la tributacion que te corresponden a pagar de
+              manera sencilla y rápida.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- section 4 -->
+      <div class="section4 vertical">
+        <div class="section4-1 vertical"><h2>Tributación</h2></div>
+        <div class="section4-2 horizontal">
+          <div class="section4-a">
+            <p class="text-section-4">
+              Los impuestos o tributos son un pago sin contraprestación pero generalmente esperamos algún beneficio indirecto. En la mayoría de los países modernos, los ciudadanos pagan impuestos al gobierno con el fin de financiar sus actividades, programas de ayuda y otros servicios. Tenemos una sección informativa para que encuentres todo lo que necesitas saber sobre impuestos.
+            </p>
+          </div>
+          <div class="section4-b">
+            <img class="money" src="imagenes/money-bag.png" alt="tributacion" />
+          </div>
+        </div>
+      </div>
+      <!-- section 5 -->
+      <div class="section5 vertical">
+        <div class="espacio-top"></div>
+        <div class="espacio-center horizontal">
+          <div class="section5-a vertical">
+            <h2>section 1</h2>
+          </div>
+          <div class="section5-b vertical">
+            <h2>section 2</h2>
+          </div>
+          <div class="section5-c vertical">
+            <h2>section 3</h2>
+          </div>
+        </div>
+        <div class="espacio-bottom"></div>
+      </div>
+      <!-- footer Copyright -->
+      <div class="footer vertical">
+        <p>© Copyright ©2022 All rights reserved</p>
+      </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+     <script src="grafics.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

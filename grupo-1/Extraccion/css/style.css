@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spline Sans", sans-serif;
+}
+p {
+  margin-bottom: 0;
+}
+#body {
+  font-family: "Spline Sans", sans-serif;
+}
+
+.horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* botones del header */
+.home,
+.about,
+.services,
+.news,
+.contact,
+.login {
+  margin: 0 10px;
+  padding: 5px;
+  border: none;
+  background-color: #070d18;
+  color: white;
+}
+.login {
+  padding: 0 15px;
+  border-radius: 10px;
+  border: 1px solid aqua;
+}
+.login:hover {
+  background-color: rgb(13, 30, 68);
+}
+.home:hover,
+.about:hover,
+.services:hover,
+.news:hover,
+.contact:hover {
+  transform: scaleX(1);
+  border-bottom: 1px solid aqua;
+}
+/* section 1 */
+
+.section-1-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 700px;
+}
+
+.text-section-1 {
+  font-size: 25px;
+}
+
+.navbar {
+  height: 75px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.espacio {
+  height: 200px;
+}
+.cumplir {
+  color: rgb(66, 189, 236, 0.8);
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.container-text {
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-fondo {
+  width: 100vw;
+  height: 600px;
+  position: absolute;
+  filter: brightness(50%);
+}
+
+/* section 2 */
+.section2-1 {
+  height: 40%;
+  justify-content: space-between;
+}
+.section2-2 {
+  width: 100%;
+  height: 60%;
+  justify-content: space-between;
+}
+
+.title-section-2 {
+  font-size: 36px;
+}
+
+.text-section-2 {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  font-size: 25px;
+}
+.text-strong {
+  color: rgb(66, 189, 236, 0.8);
+}
+
+.imagen-sect-2 {
+  width: 100%;
+  height: 100%;
+}
+
+/* selection 3 */
+.section3-1,
+.section3-2 {
+  width: 100%;
+}
+
+.title-strong-logo {
+  color: rgb(66, 189, 236, 0.8);
+}
+
+.title-section-3 {
+  display: flex;
+  flex-direction: row;
+  font-size: 40px;
+  position: absolute;
+  top: 55px;
+}
+
+.text-section-3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+
+.section3-2 {
+  justify-content: space-between;
+}
+
+.img-card {
+  width: 100px;
+}
+
+.card1,
+.card2,
+.card3 {
+  width: 30%;
+  height: 300px;
+  background-color: white;
+  color: #070d18;
+  border-radius: 15px;
+  padding: 20px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+/* section 4 */
+.section4-1,
+.section4-2 {
+  width: 100%;
+}
+
+.section4-1 {
+  height: 20%;
+}
+
+.text-section-4 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+}
+
+.section4-2 {
+  height: 80%;
+  justify-content: space-between;
+}
+.money {
+  width: 600px;
+  height: 500px;
+  position: absolute;
+  top: 100px;
+  right: 30px;
+}
+/* section 5 */
+.espacio-top,
+.espacio-bottom {
+  height: 50px;
+  width: 100%;
+}
+.espacio-center {
+  width: 100%;
+  justify-content: space-between;
+}
+.section5 {
+  height: 100px;
+}
+.section5-a,
+.section5-b {
+  width: 30%;
+  height: 200px;
+  padding: 20px;
+}
+.section5-c {
+  width: 39%;
+  height: 200px;
+  padding: 20px;
+}
+
+.section5-b {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+/* footer */
+.footer {
+  height: 50px;
+}
+/* GENERALIZACIONES */
+.section {
+  height: 600px;
+}
+.section2-a,
+.section4-a,
+.section4-b {
+  width: 48%;
+  height: 100%;
+  padding: 40px 0;
+  justify-content: space-between;
+}
+
+.section3 {
+  position: relative;
+}
+
+.section,
+.section3,
+.section5,
+.decoration {
+  height: 700px;
+  background-color: #070d18;
+  color: white;
+}
+.section2,
+.section3,
+.section4 {
+  height: 700px;
+  width: 100%;
+  padding: 60px;
+}
+
+.section4 {
+  position: relative;
+}
+
+.section2-b {
+  margin-right: 150px;
+  height: 400px;
+  width: 400px;
+}
+
+.grafico {
+  height: 40px;
+  width: 100px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.justify-content-center {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+.heading-section {
+  font-size: 28px;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.login-wrap {
+  position: relative;
+  color: rgba(255, 255, 255, 0.9);
+}
+.login-wrap h3 {
+  font-weight: 300;
+  color: #fff;
+}
+.login-wrap .social {
+  width: 100%;
+}
+.login-wrap .social a {
+  width: 100%;
+  display: block;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #000;
+  background: #fff;
+}
+.login-wrap .social a:hover {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-control {
+  background: transparent;
+  border: none;
+  height: 50px;
+  color: white !important;
+  border: 1px solid transparent;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+@media (prefers-reduced-motion: reduce) {
+  .form-control {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+}
+.form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+.form-control:-ms-input-placeholder {
+  /* IE 10+ */
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+.form-control:hover,
+.form-control:focus {
+  background: transparent;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: rgba(187, 43, 43, 0.4);
+}
+.form-control:focus {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.ftco-section {
+  padding: 7em 0;
+}
+
+.btn {
+  color: aquamarine;
+}

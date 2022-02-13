@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+.formulario {
+  padding: 20px;
+  width: 50%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.formulario2 {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.espacios {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.boton {
+  padding: 5px;
+  border-radius: 10px;
+}
+input {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+.section5 {
+  background-color: #070d18;
+  color: white;
+}
+.horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.color-fondo {
+  background-color: #070d18;
+}
+.section5-a,
+.section5-b,
+.section5-c {
+  width: 450px;
+  height: 200px;
+  padding: 20px;
+}
+/* botones del header */
+.home,
+.about,
+.services,
+.news,
+.contact,
+.login {
+  margin: 0 10px;
+  padding: 5px;
+  border: none;
+  background-color: #070d18;
+  color: white;
+}
+.login {
+  padding: 0 15px;
+  border-radius: 10px;
+  border: 1px solid aqua;
+}
+.login:hover {
+  background-color: rgb(13, 30, 68);
+}
+.home:hover,
+.about:hover,
+.services:hover,
+.news:hover,
+.contact:hover {
+  transform: scaleX(1);
+  border-bottom: 1px solid aqua;
+}
+.navbar {
+  height: 75px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.section-info {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer {
+  height: 100px;
+}
