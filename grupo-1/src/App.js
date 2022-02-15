@@ -4,7 +4,8 @@ import Layout from "./components/shared/Layout";
 import Home from "./pages/Home";
 import RegisterForm from "./components/RegisterForm";
 import LoginForm from "./components/LoginForm";
-import Profile from "./components/Profile";
+import Profile from "./pages/Profile";
+import LayoutUser from "./components/shared/LayoutUser";
 // import localAPI from "./utils/localAPI";
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
         </Route>
         <Route path="/register" element={<RegisterForm></RegisterForm>}></Route>
         <Route path="/login" element={<LoginForm></LoginForm>}></Route>
-        <Route path="/profile" element={<Layout></Layout>}>
+        <Route path="/profile" element={<LayoutUser></LayoutUser>}>
           <Route index element={<Profile></Profile>}></Route>
         </Route>
       </Routes>

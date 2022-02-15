@@ -5,17 +5,99 @@ const Home = () => {
   return (
     <div>
       {/* <!-- section 1 --> */}
-      <div className="section1 imagen d-flex flex-column justify-content-end text-center">
-        <div className="align-self-center">
-          <h2 className="mb-2 font-sect-1">
-            Tus derechos importan, conócelos y hazlos
-          </h2>
-          <h2 className="mb-2 font-sect-1">CUMPLIR</h2>
-          <br />
-          <h4 className="mb-3 font-sect-1">
-            Te brindamos información sobre leyes laborales y tributacion para
-            hacertelo más sencillo.
-          </h4>
+      <div>
+        <div
+          id="carouselExampleDark"
+          className="carousel carousel-dark slide "
+          data-bs-ride="carousel"
+        >
+          <div className="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              className="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div className="carousel-inner section1">
+            <div className="carousel-item active" data-bs-interval="5000">
+              <img
+                src="/assets/img/carousel1.jpg"
+                className="d-block section1 w-100"
+                alt="cargando..."
+              />
+              <div className="carousel-caption d-none d-md-block text-light">
+                <h5>First slide label</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+            <div className="carousel-item" data-bs-interval="5000">
+              <img
+                src="/assets/img/carousel2.jpg"
+                className="d-block section1 w-100"
+                alt="Cargando..."
+              />
+              <div className="carousel-caption d-none d-md-block ">
+                <h5>Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div className="carousel-item" data-bs-interval="5000">
+              <img
+                src="/assets/img/carousel3.jpg"
+                className="d-block section1 w-100"
+                alt="Cargando..."
+              />
+              <div className="carousel-caption d-none d-md-block text-dark">
+                <h5>Third slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            className="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span
+              className="carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button
+            className="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span
+              className="carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
+            <span className="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
       <div className="decoration"></div>

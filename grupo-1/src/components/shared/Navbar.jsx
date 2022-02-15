@@ -5,10 +5,10 @@ const Navbar = () => {
   return (
     <div className="m-0 pt-3 py-3 px-5 sect-navbar ">
       <div className="d-flex align-self-center justify-content-between">
-        <div>
-          <h1 className="m-0 text-light">Trabaja Decente</h1>
+        <div className="w-25 ">
+          <img className="w-100" src="/assets/img/logo.png" alt="Cargando..." />
         </div>
-        <div className="align-self-center hidden-xs">
+        <div className="d-flex align-self-center justify-content-center hidden-xs">
           <Link to="#">
             <button className="text-light botones-nav mx-1">Inicio</button>
           </Link>

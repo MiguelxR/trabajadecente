@@ -13,6 +13,7 @@ code {
 /* Start Navbar */
 .sect-navbar {
   background-color: #070d18;
+  height: 100px;
 }
 .botones-nav {
   line-height: 4;
@@ -35,9 +36,6 @@ code {
 .botones-nav:hover::before {
   width: 100%;
 }
-/* .botones-nav:hover {
-  border-bottom: 1px solid aqua;
-} */
 Link,
 a {
   text-decoration: none;
@@ -69,7 +67,7 @@ ul {
   background-repeat: no-repeat;
 }
 .decoration {
-  height: 75px;
+  height: 100px;
   width: 100%;
   background-color: #070d18;
 }
@@ -77,7 +75,7 @@ ul {
 
 /* Star Section 2 */
 .section-2 {
-  height: 400px;
+  height: 500px;
 }
 .section2-a {
   width: 50%;
@@ -93,7 +91,7 @@ ul {
 
 /* Star Section 3 */
 .section-3 {
-  height: 400px;
+  height: 500px;
   width: 100%;
   background-color: #070d18;
 }
@@ -118,7 +116,7 @@ ul {
 
 /* Start Section 4 */
 .section-4 {
-  height: 400px;
+  height: 500px;
   width: 100%;
 }
 .section-4-2 {
@@ -191,7 +189,6 @@ ul {
 .footer .btn-social {
   color: #9a9a9a;
 }
-
 .footer:not(.footer-big) nav > ul {
   font-size: 16px;
 }
@@ -203,11 +200,9 @@ ul {
   padding: 10px 0px;
   margin: 15px 10px 15px 0px;
 }
-
 .footer-color-gray {
   background-color: #f5f5f5;
 }
-
 .footer-color-black,
 .footer-transparent {
   background-color: #070d18;
@@ -233,7 +228,6 @@ ul {
 .footer-transparent .title {
   color: #dddddd;
 }
-
 .footer-transparent {
   background-attachment: fixed;
   background-size: cover;
@@ -254,7 +248,6 @@ ul {
   content: "";
   z-index: 1;
 }
-
 .footer-big {
   padding-top: 30px;
 }
@@ -368,8 +361,10 @@ ul {
   left: 0;
   font-size: 30px;
   color: #ffffff;
+  transition: all 500ms;
 }
 .icono-login:hover {
+  transition: all 500ms;
   color: #070d18;
 }
 .icono-register {
@@ -378,8 +373,113 @@ ul {
   left: 0;
   font-size: 30px;
   color: #ffffff;
+  transition: all 500ms;
 }
 .icono-register:hover {
+  transition: all 500ms;
   color: rgb(1, 151, 221);
 }
 /* End Register-Login */
+
+/* Start Layout-User */
+/* Start Navbar-User */
+.nav-user {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #070d18;
+  color: white;
+  width: 80vw;
+  height: 125px;
+}
+.sect-1 {
+  height: 100%;
+  width: 40%;
+}
+.logo {
+  height: 100px;
+}
+.h-100 {
+  height: 100%;
+}
+.div-layout-user {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+/* End Navbar-User */
+/* Start Sidebar */
+.sidebar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 20vw;
+  height: 100vh;
+  background-color: #42bdec;
+}
+.sidebar-logo {
+  width: 100%;
+  height: 75px;
+  background-color: #ffffff;
+}
+.ops-sidebar,
+.ops-sidebar-cerrar {
+  height: 75px;
+  border-bottom: 1px solid white;
+  transition: all 900ms;
+}
+.ops-sidebar:hover {
+  transition: all 900ms;
+  color: #070d18;
+  background-color: #9a9a9a;
+}
+.ops-sidebar-cerrar:hover {
+  transition: all 900ms;
+  color: white;
+  background-color: #070d18;
+}
+.iconos-sidebar {
+  font-size: 35px;
+}
+.cerrar-sesion {
+  position: absolute;
+  bottom: 0;
+}
+/* End Sidebar */
+/* Start Footer-User */
+.footer-user {
+  width: 100vw;
+  position: relative;
+  bottom: 0;
+  right: 0;
+}
+/* End Footer-User */
+/* End Layout-User */
+
+/* Start Profile */
+.perfil {
+  position: absolute;
+  top: 125px;
+  bottom: 0;
+  right: 0;
+  width: 80vw;
+  height: 100%;
+}
+.color-base {
+  background-color: #070d18;
+}
+.iconos-perfil {
+  font-size: 42px;
+}
+.boton-trabajos {
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  transition: all 600ms;
+}
+.boton-trabajos:hover {
+  transition: all 600ms;
+  color: #070d18;
+  background-color: #42bdec;
+}
+/* End Profile */
