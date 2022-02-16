@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Contactform from "./contact/Contactform";
 
 const Home = () => {
   return (
@@ -36,40 +37,52 @@ const Home = () => {
           <div className="carousel-inner section1">
             <div className="carousel-item active" data-bs-interval="5000">
               <img
-                src="/assets/img/carousel1.jpg"
-                className="d-block section1 w-100"
+                src="/assets/img/workers.png"
+                className="d-block section1 w-100 imgCarousel"
                 alt="cargando..."
               />
               <div className="carousel-caption d-none d-md-block text-light">
-                <h5>First slide label</h5>
-                <p>
-                  Some representative placeholder content for the first slide.
+                <h5 className="title-Carousel">
+                  Tus derechos importan, conócelos y hazlos cumplir.
+                </h5>
+                <p className="text-Carousel">
+                  Conoce todo lo necesario sobre tus derechos laborales en
+                  nuestra sección informativa para luchar contra la explotación
+                  y los malos tratos en el área de trabajo.
                 </p>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="5000">
               <img
-                src="/assets/img/carousel2.jpg"
-                className="d-block section1 w-100"
+                src="/assets/img/negotiations-about-contract-terms-concept-hand-pointing-at-document-closeup.jpg"
+                className="d-block section1 w-100 imgCarousel"
                 alt="Cargando..."
               />
               <div className="carousel-caption d-none d-md-block ">
-                <h5>Second slide label</h5>
-                <p>
-                  Some representative placeholder content for the second slide.
+                <h5 className="title-Carousel">
+                  Te brindamos asesoría legal con abogados laborales
+                  especializados.
+                </h5>
+                <p className="text-Carousel">
+                  Puedes generar una cita en línea para asesorías virtuales o
+                  presenciales.
                 </p>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="5000">
               <img
                 src="/assets/img/carousel3.jpg"
-                className="d-block section1 w-100"
+                className="d-block section1 w-100 imgCarousel"
                 alt="Cargando..."
               />
               <div className="carousel-caption d-none d-md-block text-dark">
-                <h5>Third slide label</h5>
-                <p>
-                  Some representative placeholder content for the third slide.
+                <h5 className="title-Carousel">
+                  Calculadora de tributación y prestaciones sociales.
+                </h5>
+                <p className="text-Carousel">
+                  Te brindamos herramientas para que puedas calcular de manera
+                  sencilla los tributos que debes pagar y las prestaciones que
+                  te corresponden recibir.
                 </p>
               </div>
             </div>

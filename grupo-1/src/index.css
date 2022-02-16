@@ -66,6 +66,26 @@ ul {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+
+.imgCarousel {
+  filter: brightness(50%);
+}
+
+.title-Carousel {
+  margin-bottom: 150px;
+  font-weight: 500;
+  font-size: 34px;
+  font-family: "Spline Sans", sans-serif;
+  color: white;
+}
+
+.text-Carousel {
+  font-family: "Spline Sans", sans-serif;
+  font-size: 25px;
+  margin-bottom: 100px;
+  color: rgb(66, 189, 236);
+}
+
 .decoration {
   height: 100px;
   width: 100%;

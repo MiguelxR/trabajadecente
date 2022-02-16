@@ -23,7 +23,7 @@ const Navbar = () => {
           <Link to="#">
             <button className="text-light botones-nav mx-1">Noticias</button>
           </Link>
-          <Link to="#">
+          <Link to="/contact">
             <button className="text-light botones-nav mx-1">Contactanos</button>
           </Link>
           {localStorage.getItem("token") ? (

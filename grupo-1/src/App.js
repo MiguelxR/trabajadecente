@@ -6,6 +6,7 @@ import RegisterForm from "./components/RegisterForm";
 import LoginForm from "./components/LoginForm";
 import Profile from "./pages/Profile";
 import LayoutUser from "./components/shared/LayoutUser";
+import Contactform from "./pages/contact/Contactform";
 // import localAPI from "./utils/localAPI";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/profile" element={<LayoutUser></LayoutUser>}>
           <Route index element={<Profile></Profile>}></Route>
         </Route>
+        <Route path="/contact" element={<Contactform></Contactform>}></Route>
       </Routes>
     </BrowserRouter>
   );
