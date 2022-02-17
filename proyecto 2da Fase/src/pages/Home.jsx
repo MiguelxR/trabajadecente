@@ -116,7 +116,7 @@ const Home = () => {
       {/* <!-- section 2 --> */}
       <div className="section-2 d-flex flex-column justify-content-center align-items-center px-5">
         <div>
-          <h2 className="text-center">Desafío</h2>
+          <h2 className="text-center title-section2">Desafío</h2>
           <p className="text-section-2">
             La pandemia del covid-19 a afectado de manera negativa el
             crecimiento económico del Perú y a impulsado el desempleo, la
@@ -129,15 +129,26 @@ const Home = () => {
           <br />
         </div>
 
-        <div className="d-flex justify-content-evenly">
-          <div className="section2-a">
-            <p className="text-left">
-              La informalidad laboral es uno de los principales problemas
-              socioeconómicos del Perú y es el causante de perpetuar la
-              precarización, la explotación y discriminación, lamentablemente en
-              el año 2021 se ha profundizado esta problemática en el país.
-            </p>
-          </div>
+        <div className="d-flex justify-content-evenly section2">
+          <div className="section2-a"></div>
+          <img
+            src="http://www.conexihon.hn/images/Maquila-hondurea-2.jpg"
+            className="img-desafio"
+          />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbRQ11FL0edPx6FgcmAhwrpugxPpG19QI-Uk2FMuz40_GRNEFDMY47zVeOhoWBoTTNtE8&usqp=CAU"
+            className="img-desafio2"
+          />
+          <img
+            src="https://billieparkernoticias.com/wp-content/uploads/2021/07/Noticia3.jpg"
+            className="img-desafio"
+          />
+          <p className="text2-section2">
+            La informalidad laboral es uno de los principales problemas
+            socioeconómicos del Perú y es el causante de perpetuar la
+            precarización, la explotación y discriminación, lamentablemente en
+            el año 2021 se ha profundizado esta problemática en el país.
+          </p>
           <div className="section2-b d-flex justify-content-center align-items-center"></div>
         </div>
       </div>
