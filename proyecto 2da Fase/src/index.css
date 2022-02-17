@@ -369,7 +369,7 @@ ul {
 .limiter-login {
   width: 30vw;
   height: 100vh;
-  background-color: #587c76;
+  background-color: #070d18;
   position: relative;
 }
 .p-b-43 {
@@ -383,7 +383,7 @@ ul {
 }
 .form-register {
   width: 100%;
-  color: black;
+  color: whitesmoke;
 }
 .input-register {
   height: 40px;
@@ -536,5 +536,9 @@ ul {
   transition: all 600ms;
   color: #070d18;
   background-color: #42bdec;
+}
+
+.color-datos {
+  color: #42bdec;
 }
 /* End Profile */
