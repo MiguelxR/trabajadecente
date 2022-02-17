@@ -17,6 +17,7 @@ const LoginForm = () => {
       .post("loginUsuario", body)
       .then((res) => {
         console.log(res);
+        sessionStorage.setItem("id", res.data.id_user);
         navigate("/contact");
       })
       .catch((error) => console.log(error));
