@@ -54,7 +54,7 @@ const LoginForm = () => {
             </div>
             <div className="mt-5">
               <button className="boton-register p-2" onClick={(e) => login(e)}>
-                Registrar
+                Ingresar
               </button>
             </div>
             <div className="text-center p-t-46 p-b-20">

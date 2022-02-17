@@ -156,12 +156,13 @@ const Home = () => {
       <div className="section-3 d-flex flex-column justify-content-center align-items-center px-5">
         <div>
           <h2 className="text-center text-light">Sobre Nosotros</h2>
-          <p className="text-left text-light">
+          <p className="text-center text-light">
             Creemos en que la educación es el pilar fundamental para el
             desarrollo y la solución de los problemas sociales del país, por eso
-            Lorem es una plataforma informativa que busca asesorarte sobre tus
-            derechos como trabajador y brindarte herramientas para que puedas
-            calcular las prestaciones sociales que por ley te corresponden.
+            Legal Work es una plataforma informativa que busca asesorarte sobre
+            tus derechos como trabajador y brindarte herramientas para que
+            puedas calcular las prestaciones sociales que por ley te
+            corresponden.
           </p>
           <br />
         </div>
